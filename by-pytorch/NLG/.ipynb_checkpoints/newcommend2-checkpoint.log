@@ -1,0 +1,27 @@
+myrank: 0 local_rank: 0 device_count: 1 world_size: 1
+====================================================================================================
+        - platform : local
+        - local_rank : 0
+        - rank : 0
+        - device : cuda:0
+        - world_size : 1
+        - random_seed : 10
+        - data : ./data/e2e/test.jsonl
+        - batch_size : 1
+        - seq_len : 512
+        - eval_len : 64
+        - min_length : 0
+        - model_card : gpt2.md
+        - init_checkpoint : ./trained_models/GPT2_M/e2e/model.26290.pt
+        - lora_dim : 4
+        - lora_alpha : 32
+        - work_dir : ./trained_models/GPT2_M/e2e
+        - beam : 10
+        - length_penalty : 0.8
+        - no_repeat_ngram_size : 4
+        - repetition_penalty : 1.0
+        - eos_token_id : [50256, 628]
+        - output_file : predict.26290.b10p08r4.jsonl
+        - dist : <module 'torch.distributed' from '/root/miniconda3/lib/python3.8/site-packages/torch/distributed/__init__.py'>
+====================================================================================================
+Experiment dir : ./trained_models/GPT2_M/e2e

@@ -1,0 +1,1723 @@
+==================================================================================================== - 2025-05-26 21:34:21,762 - log
+        - random_seed : 2025 - 2025-05-26 21:34:21,762 - log
+        - data : ./data/e2e/test.jsonl - 2025-05-26 21:34:21,763 - log
+        - batch_size : 1 - 2025-05-26 21:34:21,763 - log
+        - seq_len : 64 - 2025-05-26 21:34:21,763 - log
+        - eval_len : 32 - 2025-05-26 21:34:21,763 - log
+        - min_length : 0 - 2025-05-26 21:34:21,763 - log
+        - model_card : gpt2.sm - 2025-05-26 21:34:21,763 - log
+        - init_checkpoint : ./trained_models/GPT2_M/e2e/model.1050.pkl - 2025-05-26 21:34:21,763 - log
+        - lora_dim : 4 - 2025-05-26 21:34:21,763 - log
+        - lora_alpha : 32 - 2025-05-26 21:34:21,763 - log
+        - work_dir : ./trained_models/GPT2_M/e2e - 2025-05-26 21:34:21,763 - log
+        - beam : 10 - 2025-05-26 21:34:21,763 - log
+        - length_penalty : 0.8 - 2025-05-26 21:34:21,763 - log
+        - no_repeat_ngram_size : 4 - 2025-05-26 21:34:21,763 - log
+        - repetition_penalty : 1.0 - 2025-05-26 21:34:21,763 - log
+        - eos_token_id : [50256, 628] - 2025-05-26 21:34:21,763 - log
+        - output_file : predict.1050.b10p08r4.jsonl - 2025-05-26 21:34:21,763 - log
+        - device : cuda - 2025-05-26 21:34:21,763 - log
+==================================================================================================== - 2025-05-26 21:34:21,763 - log
+--------------------------------------------------test-------------------------------------------------- - 2025-05-26 21:34:21,763 - log
+==================================================================================================== - 2025-05-28 11:20:47,643 - log
+        - random_seed : 2025 - 2025-05-28 11:20:47,643 - log
+        - data : ./data/e2e/test.jsonl - 2025-05-28 11:20:47,643 - log
+        - batch_size : 1 - 2025-05-28 11:20:47,643 - log
+        - seq_len : 64 - 2025-05-28 11:20:47,644 - log
+        - eval_len : 32 - 2025-05-28 11:20:47,644 - log
+        - min_length : 0 - 2025-05-28 11:20:47,644 - log
+        - model_card : gpt2.sm - 2025-05-28 11:20:47,644 - log
+        - init_checkpoint : ./trained_models/GPT2_M/e2e/model.1050.pkl - 2025-05-28 11:20:47,644 - log
+        - lora_dim : 4 - 2025-05-28 11:20:47,644 - log
+        - lora_alpha : 32 - 2025-05-28 11:20:47,644 - log
+        - work_dir : ./trained_models/GPT2_M/e2e - 2025-05-28 11:20:47,644 - log
+        - beam : 10 - 2025-05-28 11:20:47,644 - log
+        - length_penalty : 0.8 - 2025-05-28 11:20:47,644 - log
+        - no_repeat_ngram_size : 4 - 2025-05-28 11:20:47,644 - log
+        - repetition_penalty : 1.0 - 2025-05-28 11:20:47,644 - log
+        - eos_token_id : [50256, 628] - 2025-05-28 11:20:47,644 - log
+        - output_file : predict.1050.b10p08r4.jsonl - 2025-05-28 11:20:47,644 - log
+        - device : cuda - 2025-05-28 11:20:47,644 - log
+==================================================================================================== - 2025-05-28 11:20:47,644 - log
+--------------------------------------------------test-------------------------------------------------- - 2025-05-28 11:20:47,644 - log
+loading model pretrained weight. - 2025-05-28 11:20:47,765 - log
+==================================================================================================== - 2025-05-28 12:17:55,245 - log
+        - random_seed : 2025 - 2025-05-28 12:17:55,245 - log
+        - data : ./data/e2e/test.jsonl - 2025-05-28 12:17:55,245 - log
+        - batch_size : 1 - 2025-05-28 12:17:55,245 - log
+        - seq_len : 64 - 2025-05-28 12:17:55,245 - log
+        - eval_len : 32 - 2025-05-28 12:17:55,245 - log
+        - min_length : 0 - 2025-05-28 12:17:55,245 - log
+        - model_card : gpt2.sm - 2025-05-28 12:17:55,245 - log
+        - init_checkpoint : ./trained_models/GPT2_M/e2e/model.1050.pkl - 2025-05-28 12:17:55,245 - log
+        - lora_dim : 4 - 2025-05-28 12:17:55,245 - log
+        - lora_alpha : 32 - 2025-05-28 12:17:55,245 - log
+        - work_dir : ./trained_models/GPT2_M/e2e - 2025-05-28 12:17:55,245 - log
+        - beam : 10 - 2025-05-28 12:17:55,245 - log
+        - length_penalty : 0.8 - 2025-05-28 12:17:55,245 - log
+        - no_repeat_ngram_size : 4 - 2025-05-28 12:17:55,245 - log
+        - repetition_penalty : 1.0 - 2025-05-28 12:17:55,245 - log
+        - eos_token_id : [50256, 628] - 2025-05-28 12:17:55,245 - log
+        - output_file : predict.1050.b10p08r4.jsonl - 2025-05-28 12:17:55,246 - log
+        - device : cuda - 2025-05-28 12:17:55,246 - log
+==================================================================================================== - 2025-05-28 12:17:55,246 - log
+--------------------------------------------------test-------------------------------------------------- - 2025-05-28 12:17:55,246 - log
+loading model pretrained weight. - 2025-05-28 12:17:55,342 - log
+model sampling ... - 2025-05-28 12:17:56,806 - log
+inference samples: 0 - 2025-05-28 12:18:36,809 - log
+inference samples: 10 - 2025-05-28 12:18:43,679 - log
+inference samples: 20 - 2025-05-28 12:18:50,454 - log
+inference samples: 30 - 2025-05-28 12:18:57,254 - log
+inference samples: 40 - 2025-05-28 12:19:04,077 - log
+Jittor FPS: 1.3128675070697022 - 2025-05-28 12:19:10,423 - log
+saving prediction file: ./trained_models/GPT2_M/e2e/predict.1050.b10p08r4.jsonl - 2025-05-28 12:19:10,423 - log
+finish inference - 2025-05-28 12:19:10,424 - log
+==================================================================================================== - 2025-05-28 13:54:31,596 - log
+        - random_seed : 2025 - 2025-05-28 13:54:31,596 - log
+        - data : ./data/e2e/test.jsonl - 2025-05-28 13:54:31,596 - log
+        - batch_size : 1 - 2025-05-28 13:54:31,596 - log
+        - seq_len : 64 - 2025-05-28 13:54:31,596 - log
+        - eval_len : 32 - 2025-05-28 13:54:31,596 - log
+        - min_length : 0 - 2025-05-28 13:54:31,596 - log
+        - model_card : gpt2.sm - 2025-05-28 13:54:31,596 - log
+        - init_checkpoint : ./trained_models/GPT2_M/e2e/model.1050.pkl - 2025-05-28 13:54:31,596 - log
+        - lora_dim : 4 - 2025-05-28 13:54:31,596 - log
+        - lora_alpha : 32 - 2025-05-28 13:54:31,596 - log
+        - work_dir : ./trained_models/GPT2_M/e2e - 2025-05-28 13:54:31,596 - log
+        - beam : 10 - 2025-05-28 13:54:31,596 - log
+        - length_penalty : 0.8 - 2025-05-28 13:54:31,597 - log
+        - no_repeat_ngram_size : 4 - 2025-05-28 13:54:31,597 - log
+        - repetition_penalty : 1.0 - 2025-05-28 13:54:31,597 - log
+        - eos_token_id : [50256, 628] - 2025-05-28 13:54:31,597 - log
+        - output_file : predict.1050.b10p08r4.jsonl - 2025-05-28 13:54:31,597 - log
+        - device : cuda - 2025-05-28 13:54:31,597 - log
+==================================================================================================== - 2025-05-28 13:54:31,597 - log
+--------------------------------------------------test-------------------------------------------------- - 2025-05-28 13:54:31,597 - log
+loading model pretrained weight. - 2025-05-28 13:54:31,694 - log
+==================================================================================================== - 2025-05-28 13:55:08,644 - log
+        - random_seed : 2025 - 2025-05-28 13:55:08,645 - log
+        - data : ./data/e2e/test.jsonl - 2025-05-28 13:55:08,645 - log
+        - batch_size : 1 - 2025-05-28 13:55:08,645 - log
+        - seq_len : 64 - 2025-05-28 13:55:08,645 - log
+        - eval_len : 32 - 2025-05-28 13:55:08,645 - log
+        - min_length : 0 - 2025-05-28 13:55:08,645 - log
+        - model_card : gpt2.sm - 2025-05-28 13:55:08,645 - log
+        - init_checkpoint : ./trained_models/GPT2_M/e2e/model.105015.pkl - 2025-05-28 13:55:08,645 - log
+        - lora_dim : 4 - 2025-05-28 13:55:08,645 - log
+        - lora_alpha : 32 - 2025-05-28 13:55:08,645 - log
+        - work_dir : ./trained_models/GPT2_M/e2e - 2025-05-28 13:55:08,645 - log
+        - beam : 10 - 2025-05-28 13:55:08,645 - log
+        - length_penalty : 0.8 - 2025-05-28 13:55:08,645 - log
+        - no_repeat_ngram_size : 4 - 2025-05-28 13:55:08,645 - log
+        - repetition_penalty : 1.0 - 2025-05-28 13:55:08,645 - log
+        - eos_token_id : [50256, 628] - 2025-05-28 13:55:08,645 - log
+        - output_file : predict.1050.b10p08r4.jsonl - 2025-05-28 13:55:08,645 - log
+        - device : cuda - 2025-05-28 13:55:08,645 - log
+==================================================================================================== - 2025-05-28 13:55:08,645 - log
+--------------------------------------------------test-------------------------------------------------- - 2025-05-28 13:55:08,645 - log
+loading model pretrained weight. - 2025-05-28 13:55:08,744 - log
+==================================================================================================== - 2025-05-28 13:55:25,406 - log
+        - random_seed : 2025 - 2025-05-28 13:55:25,406 - log
+        - data : ./data/e2e/test.jsonl - 2025-05-28 13:55:25,406 - log
+        - batch_size : 1 - 2025-05-28 13:55:25,406 - log
+        - seq_len : 64 - 2025-05-28 13:55:25,406 - log
+        - eval_len : 32 - 2025-05-28 13:55:25,406 - log
+        - min_length : 0 - 2025-05-28 13:55:25,406 - log
+        - model_card : gpt2.sm - 2025-05-28 13:55:25,406 - log
+        - init_checkpoint : ./trained_models/GPT2_M/e2e/model.10515.pkl - 2025-05-28 13:55:25,406 - log
+        - lora_dim : 4 - 2025-05-28 13:55:25,406 - log
+        - lora_alpha : 32 - 2025-05-28 13:55:25,406 - log
+        - work_dir : ./trained_models/GPT2_M/e2e - 2025-05-28 13:55:25,406 - log
+        - beam : 10 - 2025-05-28 13:55:25,406 - log
+        - length_penalty : 0.8 - 2025-05-28 13:55:25,407 - log
+        - no_repeat_ngram_size : 4 - 2025-05-28 13:55:25,407 - log
+        - repetition_penalty : 1.0 - 2025-05-28 13:55:25,407 - log
+        - eos_token_id : [50256, 628] - 2025-05-28 13:55:25,407 - log
+        - output_file : predict.1050.b10p08r4.jsonl - 2025-05-28 13:55:25,407 - log
+        - device : cuda - 2025-05-28 13:55:25,407 - log
+==================================================================================================== - 2025-05-28 13:55:25,407 - log
+--------------------------------------------------test-------------------------------------------------- - 2025-05-28 13:55:25,407 - log
+loading model pretrained weight. - 2025-05-28 13:55:25,503 - log
+model sampling ... - 2025-05-28 13:55:26,901 - log
+inference samples: 0 - 2025-05-28 13:55:27,727 - log
+inference samples: 10 - 2025-05-28 13:55:34,470 - log
+inference samples: 20 - 2025-05-28 13:55:41,277 - log
+inference samples: 30 - 2025-05-28 13:55:48,067 - log
+inference samples: 40 - 2025-05-28 13:55:54,953 - log
+inference samples: 50 - 2025-05-28 13:56:01,792 - log
+inference samples: 60 - 2025-05-28 13:56:08,596 - log
+inference samples: 70 - 2025-05-28 13:56:15,427 - log
+inference samples: 80 - 2025-05-28 13:56:22,202 - log
+inference samples: 90 - 2025-05-28 13:56:29,005 - log
+inference samples: 100 - 2025-05-28 13:56:35,754 - log
+inference samples: 110 - 2025-05-28 13:56:42,488 - log
+inference samples: 120 - 2025-05-28 13:56:49,233 - log
+inference samples: 130 - 2025-05-28 13:56:55,979 - log
+inference samples: 140 - 2025-05-28 13:57:02,755 - log
+inference samples: 150 - 2025-05-28 13:57:09,518 - log
+inference samples: 160 - 2025-05-28 13:57:16,285 - log
+inference samples: 170 - 2025-05-28 13:57:23,039 - log
+inference samples: 180 - 2025-05-28 13:57:29,814 - log
+inference samples: 190 - 2025-05-28 13:57:36,539 - log
+inference samples: 200 - 2025-05-28 13:57:43,233 - log
+inference samples: 210 - 2025-05-28 13:57:49,952 - log
+inference samples: 220 - 2025-05-28 13:57:56,639 - log
+inference samples: 230 - 2025-05-28 13:58:03,384 - log
+inference samples: 240 - 2025-05-28 13:58:10,081 - log
+inference samples: 250 - 2025-05-28 13:58:16,830 - log
+inference samples: 260 - 2025-05-28 13:58:23,537 - log
+inference samples: 270 - 2025-05-28 13:58:30,253 - log
+inference samples: 280 - 2025-05-28 13:58:37,015 - log
+inference samples: 290 - 2025-05-28 13:58:43,782 - log
+inference samples: 300 - 2025-05-28 13:58:50,575 - log
+inference samples: 310 - 2025-05-28 13:58:57,361 - log
+inference samples: 320 - 2025-05-28 13:59:04,116 - log
+inference samples: 330 - 2025-05-28 13:59:10,903 - log
+inference samples: 340 - 2025-05-28 13:59:17,687 - log
+inference samples: 350 - 2025-05-28 13:59:24,517 - log
+inference samples: 360 - 2025-05-28 13:59:31,311 - log
+inference samples: 370 - 2025-05-28 13:59:38,105 - log
+inference samples: 380 - 2025-05-28 13:59:44,898 - log
+inference samples: 390 - 2025-05-28 13:59:51,677 - log
+inference samples: 400 - 2025-05-28 13:59:58,468 - log
+inference samples: 410 - 2025-05-28 14:00:05,289 - log
+inference samples: 420 - 2025-05-28 14:00:12,068 - log
+inference samples: 430 - 2025-05-28 14:00:18,812 - log
+inference samples: 440 - 2025-05-28 14:00:25,598 - log
+inference samples: 450 - 2025-05-28 14:00:32,415 - log
+inference samples: 460 - 2025-05-28 14:00:39,214 - log
+Jittor FPS: 1.4763755801067715 - 2025-05-28 14:00:44,689 - log
+saving prediction file: ./trained_models/GPT2_M/e2e/predict.1050.b10p08r4.jsonl - 2025-05-28 14:00:44,690 - log
+finish inference - 2025-05-28 14:00:44,693 - log
+==================================================================================================== - 2025-05-28 19:50:56,146 - log
+        - random_seed : 2025 - 2025-05-28 19:50:56,147 - log
+        - data : ./data/e2e/test.jsonl - 2025-05-28 19:50:56,147 - log
+        - batch_size : 1 - 2025-05-28 19:50:56,147 - log
+        - seq_len : 64 - 2025-05-28 19:50:56,147 - log
+        - eval_len : 32 - 2025-05-28 19:50:56,147 - log
+        - min_length : 0 - 2025-05-28 19:50:56,147 - log
+        - model_card : gpt2.sm - 2025-05-28 19:50:56,147 - log
+        - init_checkpoint : ./trained_models/GPT2_M/e2e/model.1050.pkl - 2025-05-28 19:50:56,147 - log
+        - lora_dim : 4 - 2025-05-28 19:50:56,147 - log
+        - lora_alpha : 32 - 2025-05-28 19:50:56,147 - log
+        - work_dir : ./trained_models/GPT2_M/e2e - 2025-05-28 19:50:56,147 - log
+        - beam : 10 - 2025-05-28 19:50:56,147 - log
+        - length_penalty : 0.8 - 2025-05-28 19:50:56,147 - log
+        - no_repeat_ngram_size : 4 - 2025-05-28 19:50:56,147 - log
+        - repetition_penalty : 1.0 - 2025-05-28 19:50:56,147 - log
+        - eos_token_id : [50256, 628] - 2025-05-28 19:50:56,147 - log
+        - output_file : predict.1050.b10p08r4.jsonl - 2025-05-28 19:50:56,147 - log
+        - device : cuda - 2025-05-28 19:50:56,147 - log
+==================================================================================================== - 2025-05-28 19:50:56,147 - log
+--------------------------------------------------test-------------------------------------------------- - 2025-05-28 19:50:56,147 - log
+loading model pretrained weight. - 2025-05-28 19:50:56,272 - log
+==================================================================================================== - 2025-05-28 19:51:45,244 - log
+        - random_seed : 2025 - 2025-05-28 19:51:45,244 - log
+        - data : ./data/e2e/test.jsonl - 2025-05-28 19:51:45,244 - log
+        - batch_size : 1 - 2025-05-28 19:51:45,244 - log
+        - seq_len : 64 - 2025-05-28 19:51:45,244 - log
+        - eval_len : 32 - 2025-05-28 19:51:45,244 - log
+        - min_length : 0 - 2025-05-28 19:51:45,244 - log
+        - model_card : gpt2.sm - 2025-05-28 19:51:45,244 - log
+        - init_checkpoint : ./trained_models/GPT2_M/e2e/model.26290.pkl - 2025-05-28 19:51:45,244 - log
+        - lora_dim : 4 - 2025-05-28 19:51:45,244 - log
+        - lora_alpha : 32 - 2025-05-28 19:51:45,244 - log
+        - work_dir : ./trained_models/GPT2_M/e2e - 2025-05-28 19:51:45,244 - log
+        - beam : 10 - 2025-05-28 19:51:45,244 - log
+        - length_penalty : 0.8 - 2025-05-28 19:51:45,244 - log
+        - no_repeat_ngram_size : 4 - 2025-05-28 19:51:45,244 - log
+        - repetition_penalty : 1.0 - 2025-05-28 19:51:45,244 - log
+        - eos_token_id : [50256, 628] - 2025-05-28 19:51:45,244 - log
+        - output_file : predict.26290.b10p08r4.jsonl - 2025-05-28 19:51:45,244 - log
+        - device : cuda - 2025-05-28 19:51:45,244 - log
+==================================================================================================== - 2025-05-28 19:51:45,244 - log
+--------------------------------------------------test-------------------------------------------------- - 2025-05-28 19:51:45,244 - log
+loading model pretrained weight. - 2025-05-28 19:51:45,370 - log
+model sampling ... - 2025-05-28 19:51:46,865 - log
+inference samples: 0 - 2025-05-28 19:51:47,712 - log
+inference samples: 10 - 2025-05-28 19:51:54,591 - log
+inference samples: 20 - 2025-05-28 19:52:01,410 - log
+inference samples: 30 - 2025-05-28 19:52:08,121 - log
+inference samples: 40 - 2025-05-28 19:52:14,817 - log
+inference samples: 50 - 2025-05-28 19:52:21,463 - log
+inference samples: 60 - 2025-05-28 19:52:28,128 - log
+inference samples: 70 - 2025-05-28 19:52:34,846 - log
+inference samples: 80 - 2025-05-28 19:52:41,578 - log
+inference samples: 90 - 2025-05-28 19:52:48,383 - log
+inference samples: 100 - 2025-05-28 19:52:55,162 - log
+inference samples: 110 - 2025-05-28 19:53:01,932 - log
+inference samples: 120 - 2025-05-28 19:53:08,731 - log
+inference samples: 130 - 2025-05-28 19:53:15,556 - log
+inference samples: 140 - 2025-05-28 19:53:22,331 - log
+inference samples: 150 - 2025-05-28 19:53:29,071 - log
+inference samples: 160 - 2025-05-28 19:53:35,814 - log
+inference samples: 170 - 2025-05-28 19:53:42,534 - log
+inference samples: 180 - 2025-05-28 19:53:49,254 - log
+inference samples: 190 - 2025-05-28 19:53:55,988 - log
+inference samples: 200 - 2025-05-28 19:54:02,749 - log
+inference samples: 210 - 2025-05-28 19:54:09,496 - log
+inference samples: 220 - 2025-05-28 19:54:16,282 - log
+inference samples: 230 - 2025-05-28 19:54:23,148 - log
+inference samples: 240 - 2025-05-28 19:54:29,940 - log
+inference samples: 250 - 2025-05-28 19:54:36,752 - log
+inference samples: 260 - 2025-05-28 19:54:43,596 - log
+inference samples: 270 - 2025-05-28 19:54:50,405 - log
+inference samples: 280 - 2025-05-28 19:54:57,201 - log
+inference samples: 290 - 2025-05-28 19:55:03,945 - log
+inference samples: 300 - 2025-05-28 19:55:10,745 - log
+inference samples: 310 - 2025-05-28 19:55:17,598 - log
+inference samples: 320 - 2025-05-28 19:55:24,376 - log
+inference samples: 330 - 2025-05-28 19:55:31,135 - log
+inference samples: 340 - 2025-05-28 19:55:37,944 - log
+inference samples: 350 - 2025-05-28 19:55:44,813 - log
+inference samples: 360 - 2025-05-28 19:55:51,642 - log
+inference samples: 370 - 2025-05-28 19:55:58,462 - log
+inference samples: 380 - 2025-05-28 19:56:05,238 - log
+inference samples: 390 - 2025-05-28 19:56:12,014 - log
+inference samples: 400 - 2025-05-28 19:56:18,865 - log
+inference samples: 410 - 2025-05-28 19:56:25,695 - log
+inference samples: 420 - 2025-05-28 19:56:32,483 - log
+inference samples: 430 - 2025-05-28 19:56:39,366 - log
+inference samples: 440 - 2025-05-28 19:56:46,178 - log
+inference samples: 450 - 2025-05-28 19:56:52,998 - log
+inference samples: 460 - 2025-05-28 19:56:59,813 - log
+inference samples: 470 - 2025-05-28 19:57:06,622 - log
+inference samples: 480 - 2025-05-28 19:57:13,453 - log
+inference samples: 490 - 2025-05-28 19:57:20,346 - log
+inference samples: 500 - 2025-05-28 19:57:27,157 - log
+inference samples: 510 - 2025-05-28 19:57:33,951 - log
+inference samples: 520 - 2025-05-28 19:57:40,722 - log
+inference samples: 530 - 2025-05-28 19:57:47,432 - log
+inference samples: 540 - 2025-05-28 19:57:54,103 - log
+inference samples: 550 - 2025-05-28 19:58:00,803 - log
+inference samples: 560 - 2025-05-28 19:58:07,522 - log
+inference samples: 570 - 2025-05-28 19:58:14,270 - log
+inference samples: 580 - 2025-05-28 19:58:21,017 - log
+inference samples: 590 - 2025-05-28 19:58:27,769 - log
+inference samples: 600 - 2025-05-28 19:58:34,526 - log
+inference samples: 610 - 2025-05-28 19:58:41,268 - log
+inference samples: 620 - 2025-05-28 19:58:48,057 - log
+inference samples: 630 - 2025-05-28 19:58:54,890 - log
+inference samples: 640 - 2025-05-28 19:59:01,739 - log
+inference samples: 650 - 2025-05-28 19:59:08,469 - log
+inference samples: 660 - 2025-05-28 19:59:15,131 - log
+inference samples: 670 - 2025-05-28 19:59:21,853 - log
+inference samples: 680 - 2025-05-28 19:59:28,664 - log
+inference samples: 690 - 2025-05-28 19:59:35,500 - log
+inference samples: 700 - 2025-05-28 19:59:42,296 - log
+inference samples: 710 - 2025-05-28 19:59:49,123 - log
+inference samples: 720 - 2025-05-28 19:59:55,903 - log
+inference samples: 730 - 2025-05-28 20:00:02,691 - log
+inference samples: 740 - 2025-05-28 20:00:09,486 - log
+inference samples: 750 - 2025-05-28 20:00:16,274 - log
+inference samples: 760 - 2025-05-28 20:00:23,066 - log
+inference samples: 770 - 2025-05-28 20:00:29,899 - log
+inference samples: 780 - 2025-05-28 20:00:36,664 - log
+inference samples: 790 - 2025-05-28 20:00:43,473 - log
+inference samples: 800 - 2025-05-28 20:00:50,255 - log
+inference samples: 810 - 2025-05-28 20:00:57,025 - log
+inference samples: 820 - 2025-05-28 20:01:03,762 - log
+inference samples: 830 - 2025-05-28 20:01:10,499 - log
+inference samples: 840 - 2025-05-28 20:01:17,291 - log
+inference samples: 850 - 2025-05-28 20:01:24,041 - log
+inference samples: 860 - 2025-05-28 20:01:30,942 - log
+inference samples: 870 - 2025-05-28 20:01:37,833 - log
+inference samples: 880 - 2025-05-28 20:01:44,653 - log
+inference samples: 890 - 2025-05-28 20:01:51,457 - log
+inference samples: 900 - 2025-05-28 20:01:58,176 - log
+inference samples: 910 - 2025-05-28 20:02:04,856 - log
+inference samples: 920 - 2025-05-28 20:02:11,663 - log
+inference samples: 930 - 2025-05-28 20:02:18,439 - log
+inference samples: 940 - 2025-05-28 20:02:25,230 - log
+inference samples: 950 - 2025-05-28 20:02:32,071 - log
+inference samples: 960 - 2025-05-28 20:02:38,904 - log
+inference samples: 970 - 2025-05-28 20:02:45,711 - log
+inference samples: 980 - 2025-05-28 20:02:52,505 - log
+inference samples: 990 - 2025-05-28 20:02:59,286 - log
+inference samples: 1000 - 2025-05-28 20:03:05,998 - log
+inference samples: 1010 - 2025-05-28 20:03:12,737 - log
+inference samples: 1020 - 2025-05-28 20:03:19,476 - log
+inference samples: 1030 - 2025-05-28 20:03:26,203 - log
+inference samples: 1040 - 2025-05-28 20:03:33,016 - log
+inference samples: 1050 - 2025-05-28 20:03:39,859 - log
+inference samples: 1060 - 2025-05-28 20:03:46,690 - log
+inference samples: 1070 - 2025-05-28 20:03:53,527 - log
+inference samples: 1080 - 2025-05-28 20:04:00,348 - log
+inference samples: 1090 - 2025-05-28 20:04:07,139 - log
+inference samples: 1100 - 2025-05-28 20:04:13,977 - log
+inference samples: 1110 - 2025-05-28 20:04:20,891 - log
+inference samples: 1120 - 2025-05-28 20:04:27,698 - log
+inference samples: 1130 - 2025-05-28 20:04:34,499 - log
+inference samples: 1140 - 2025-05-28 20:04:41,320 - log
+inference samples: 1150 - 2025-05-28 20:04:48,097 - log
+inference samples: 1160 - 2025-05-28 20:04:54,855 - log
+inference samples: 1170 - 2025-05-28 20:05:01,656 - log
+inference samples: 1180 - 2025-05-28 20:05:08,511 - log
+inference samples: 1190 - 2025-05-28 20:05:15,358 - log
+inference samples: 1200 - 2025-05-28 20:05:22,234 - log
+inference samples: 1210 - 2025-05-28 20:05:29,079 - log
+inference samples: 1220 - 2025-05-28 20:05:35,888 - log
+inference samples: 1230 - 2025-05-28 20:05:42,696 - log
+inference samples: 1240 - 2025-05-28 20:05:49,465 - log
+inference samples: 1250 - 2025-05-28 20:05:56,302 - log
+inference samples: 1260 - 2025-05-28 20:06:03,085 - log
+inference samples: 1270 - 2025-05-28 20:06:09,843 - log
+inference samples: 1280 - 2025-05-28 20:06:16,559 - log
+inference samples: 1290 - 2025-05-28 20:06:23,252 - log
+inference samples: 1300 - 2025-05-28 20:06:30,112 - log
+inference samples: 1310 - 2025-05-28 20:06:36,998 - log
+inference samples: 1320 - 2025-05-28 20:06:43,837 - log
+inference samples: 1330 - 2025-05-28 20:06:50,573 - log
+inference samples: 1340 - 2025-05-28 20:06:57,327 - log
+inference samples: 1350 - 2025-05-28 20:07:04,088 - log
+inference samples: 1360 - 2025-05-28 20:07:10,856 - log
+inference samples: 1370 - 2025-05-28 20:07:17,708 - log
+inference samples: 1380 - 2025-05-28 20:07:24,579 - log
+inference samples: 1390 - 2025-05-28 20:07:31,344 - log
+inference samples: 1400 - 2025-05-28 20:07:38,196 - log
+inference samples: 1410 - 2025-05-28 20:07:45,032 - log
+inference samples: 1420 - 2025-05-28 20:07:51,867 - log
+inference samples: 1430 - 2025-05-28 20:07:58,682 - log
+inference samples: 1440 - 2025-05-28 20:08:05,481 - log
+inference samples: 1450 - 2025-05-28 20:08:12,321 - log
+inference samples: 1460 - 2025-05-28 20:08:19,141 - log
+inference samples: 1470 - 2025-05-28 20:08:25,984 - log
+inference samples: 1480 - 2025-05-28 20:08:32,763 - log
+inference samples: 1490 - 2025-05-28 20:08:39,528 - log
+inference samples: 1500 - 2025-05-28 20:08:46,287 - log
+inference samples: 1510 - 2025-05-28 20:08:53,017 - log
+inference samples: 1520 - 2025-05-28 20:08:59,756 - log
+inference samples: 1530 - 2025-05-28 20:09:06,611 - log
+inference samples: 1540 - 2025-05-28 20:09:13,467 - log
+inference samples: 1550 - 2025-05-28 20:09:20,246 - log
+inference samples: 1560 - 2025-05-28 20:09:27,020 - log
+inference samples: 1570 - 2025-05-28 20:09:33,784 - log
+inference samples: 1580 - 2025-05-28 20:09:40,567 - log
+inference samples: 1590 - 2025-05-28 20:09:47,439 - log
+inference samples: 1600 - 2025-05-28 20:09:54,299 - log
+inference samples: 1610 - 2025-05-28 20:10:01,076 - log
+inference samples: 1620 - 2025-05-28 20:10:07,843 - log
+inference samples: 1630 - 2025-05-28 20:10:14,597 - log
+inference samples: 1640 - 2025-05-28 20:10:21,331 - log
+inference samples: 1650 - 2025-05-28 20:10:28,086 - log
+inference samples: 1660 - 2025-05-28 20:10:34,850 - log
+inference samples: 1670 - 2025-05-28 20:10:41,605 - log
+inference samples: 1680 - 2025-05-28 20:10:48,414 - log
+inference samples: 1690 - 2025-05-28 20:10:55,243 - log
+inference samples: 1700 - 2025-05-28 20:11:02,050 - log
+inference samples: 1710 - 2025-05-28 20:11:08,838 - log
+inference samples: 1720 - 2025-05-28 20:11:15,631 - log
+inference samples: 1730 - 2025-05-28 20:11:22,443 - log
+inference samples: 1740 - 2025-05-28 20:11:29,224 - log
+inference samples: 1750 - 2025-05-28 20:11:35,979 - log
+inference samples: 1760 - 2025-05-28 20:11:42,695 - log
+inference samples: 1770 - 2025-05-28 20:11:49,450 - log
+inference samples: 1780 - 2025-05-28 20:11:56,201 - log
+inference samples: 1790 - 2025-05-28 20:12:03,006 - log
+inference samples: 1800 - 2025-05-28 20:12:09,798 - log
+inference samples: 1810 - 2025-05-28 20:12:16,660 - log
+inference samples: 1820 - 2025-05-28 20:12:23,504 - log
+inference samples: 1830 - 2025-05-28 20:12:30,297 - log
+inference samples: 1840 - 2025-05-28 20:12:37,072 - log
+inference samples: 1850 - 2025-05-28 20:12:43,870 - log
+inference samples: 1860 - 2025-05-28 20:12:50,717 - log
+inference samples: 1870 - 2025-05-28 20:12:57,427 - log
+inference samples: 1880 - 2025-05-28 20:13:04,174 - log
+inference samples: 1890 - 2025-05-28 20:13:10,925 - log
+inference samples: 1900 - 2025-05-28 20:13:17,702 - log
+inference samples: 1910 - 2025-05-28 20:13:24,464 - log
+inference samples: 1920 - 2025-05-28 20:13:31,223 - log
+inference samples: 1930 - 2025-05-28 20:13:38,000 - log
+inference samples: 1940 - 2025-05-28 20:13:44,769 - log
+inference samples: 1950 - 2025-05-28 20:13:51,514 - log
+inference samples: 1960 - 2025-05-28 20:13:58,324 - log
+inference samples: 1970 - 2025-05-28 20:14:05,090 - log
+inference samples: 1980 - 2025-05-28 20:14:11,840 - log
+inference samples: 1990 - 2025-05-28 20:14:18,618 - log
+inference samples: 2000 - 2025-05-28 20:14:25,336 - log
+inference samples: 2010 - 2025-05-28 20:14:32,051 - log
+inference samples: 2020 - 2025-05-28 20:14:38,798 - log
+inference samples: 2030 - 2025-05-28 20:14:45,536 - log
+inference samples: 2040 - 2025-05-28 20:14:52,295 - log
+inference samples: 2050 - 2025-05-28 20:14:59,063 - log
+inference samples: 2060 - 2025-05-28 20:15:05,872 - log
+inference samples: 2070 - 2025-05-28 20:15:12,599 - log
+inference samples: 2080 - 2025-05-28 20:15:19,389 - log
+inference samples: 2090 - 2025-05-28 20:15:26,218 - log
+inference samples: 2100 - 2025-05-28 20:15:32,998 - log
+inference samples: 2110 - 2025-05-28 20:15:39,724 - log
+inference samples: 2120 - 2025-05-28 20:15:46,443 - log
+inference samples: 2130 - 2025-05-28 20:15:53,146 - log
+inference samples: 2140 - 2025-05-28 20:15:59,886 - log
+inference samples: 2150 - 2025-05-28 20:16:06,662 - log
+inference samples: 2160 - 2025-05-28 20:16:13,456 - log
+inference samples: 2170 - 2025-05-28 20:16:20,276 - log
+inference samples: 2180 - 2025-05-28 20:16:27,062 - log
+inference samples: 2190 - 2025-05-28 20:16:33,866 - log
+inference samples: 2200 - 2025-05-28 20:16:40,697 - log
+inference samples: 2210 - 2025-05-28 20:16:47,531 - log
+inference samples: 2220 - 2025-05-28 20:16:54,384 - log
+inference samples: 2230 - 2025-05-28 20:17:01,256 - log
+inference samples: 2240 - 2025-05-28 20:17:08,018 - log
+inference samples: 2250 - 2025-05-28 20:17:14,772 - log
+inference samples: 2260 - 2025-05-28 20:17:21,630 - log
+inference samples: 2270 - 2025-05-28 20:17:28,480 - log
+inference samples: 2280 - 2025-05-28 20:17:35,255 - log
+inference samples: 2290 - 2025-05-28 20:17:42,074 - log
+inference samples: 2300 - 2025-05-28 20:17:48,937 - log
+inference samples: 2310 - 2025-05-28 20:17:55,761 - log
+inference samples: 2320 - 2025-05-28 20:18:02,625 - log
+inference samples: 2330 - 2025-05-28 20:18:09,438 - log
+inference samples: 2340 - 2025-05-28 20:18:16,233 - log
+inference samples: 2350 - 2025-05-28 20:18:23,045 - log
+inference samples: 2360 - 2025-05-28 20:18:29,757 - log
+inference samples: 2370 - 2025-05-28 20:18:36,493 - log
+inference samples: 2380 - 2025-05-28 20:18:43,258 - log
+inference samples: 2390 - 2025-05-28 20:18:50,087 - log
+inference samples: 2400 - 2025-05-28 20:18:57,027 - log
+inference samples: 2410 - 2025-05-28 20:19:03,873 - log
+inference samples: 2420 - 2025-05-28 20:19:10,664 - log
+inference samples: 2430 - 2025-05-28 20:19:17,561 - log
+inference samples: 2440 - 2025-05-28 20:19:24,420 - log
+inference samples: 2450 - 2025-05-28 20:19:31,299 - log
+inference samples: 2460 - 2025-05-28 20:19:38,135 - log
+inference samples: 2470 - 2025-05-28 20:19:44,886 - log
+inference samples: 2480 - 2025-05-28 20:19:51,660 - log
+inference samples: 2490 - 2025-05-28 20:19:58,410 - log
+inference samples: 2500 - 2025-05-28 20:20:05,238 - log
+inference samples: 2510 - 2025-05-28 20:20:12,080 - log
+inference samples: 2520 - 2025-05-28 20:20:18,882 - log
+inference samples: 2530 - 2025-05-28 20:20:25,700 - log
+inference samples: 2540 - 2025-05-28 20:20:32,547 - log
+inference samples: 2550 - 2025-05-28 20:20:39,381 - log
+inference samples: 2560 - 2025-05-28 20:20:46,207 - log
+inference samples: 2570 - 2025-05-28 20:20:52,997 - log
+inference samples: 2580 - 2025-05-28 20:20:59,773 - log
+inference samples: 2590 - 2025-05-28 20:21:06,570 - log
+inference samples: 2600 - 2025-05-28 20:21:13,389 - log
+inference samples: 2610 - 2025-05-28 20:21:20,184 - log
+inference samples: 2620 - 2025-05-28 20:21:26,922 - log
+inference samples: 2630 - 2025-05-28 20:21:33,720 - log
+inference samples: 2640 - 2025-05-28 20:21:40,497 - log
+inference samples: 2650 - 2025-05-28 20:21:47,275 - log
+inference samples: 2660 - 2025-05-28 20:21:54,083 - log
+inference samples: 2670 - 2025-05-28 20:22:00,940 - log
+inference samples: 2680 - 2025-05-28 20:22:07,812 - log
+inference samples: 2690 - 2025-05-28 20:22:14,557 - log
+inference samples: 2700 - 2025-05-28 20:22:21,320 - log
+inference samples: 2710 - 2025-05-28 20:22:28,088 - log
+inference samples: 2720 - 2025-05-28 20:22:34,873 - log
+inference samples: 2730 - 2025-05-28 20:22:41,674 - log
+inference samples: 2740 - 2025-05-28 20:22:48,449 - log
+inference samples: 2750 - 2025-05-28 20:22:55,226 - log
+inference samples: 2760 - 2025-05-28 20:23:01,968 - log
+inference samples: 2770 - 2025-05-28 20:23:08,813 - log
+inference samples: 2780 - 2025-05-28 20:23:15,577 - log
+inference samples: 2790 - 2025-05-28 20:23:22,412 - log
+inference samples: 2800 - 2025-05-28 20:23:29,224 - log
+inference samples: 2810 - 2025-05-28 20:23:36,041 - log
+inference samples: 2820 - 2025-05-28 20:23:42,847 - log
+inference samples: 2830 - 2025-05-28 20:23:49,692 - log
+inference samples: 2840 - 2025-05-28 20:23:56,565 - log
+inference samples: 2850 - 2025-05-28 20:24:03,364 - log
+inference samples: 2860 - 2025-05-28 20:24:10,051 - log
+inference samples: 2870 - 2025-05-28 20:24:16,771 - log
+inference samples: 2880 - 2025-05-28 20:24:23,554 - log
+inference samples: 2890 - 2025-05-28 20:24:30,343 - log
+inference samples: 2900 - 2025-05-28 20:24:37,082 - log
+inference samples: 2910 - 2025-05-28 20:24:43,862 - log
+inference samples: 2920 - 2025-05-28 20:24:50,680 - log
+inference samples: 2930 - 2025-05-28 20:24:57,490 - log
+inference samples: 2940 - 2025-05-28 20:25:04,365 - log
+inference samples: 2950 - 2025-05-28 20:25:11,144 - log
+inference samples: 2960 - 2025-05-28 20:25:17,924 - log
+inference samples: 2970 - 2025-05-28 20:25:24,819 - log
+inference samples: 2980 - 2025-05-28 20:25:31,573 - log
+inference samples: 2990 - 2025-05-28 20:25:38,330 - log
+inference samples: 3000 - 2025-05-28 20:25:45,123 - log
+inference samples: 3010 - 2025-05-28 20:25:51,917 - log
+inference samples: 3020 - 2025-05-28 20:25:58,703 - log
+inference samples: 3030 - 2025-05-28 20:26:05,510 - log
+inference samples: 3040 - 2025-05-28 20:26:12,332 - log
+inference samples: 3050 - 2025-05-28 20:26:19,104 - log
+inference samples: 3060 - 2025-05-28 20:26:25,899 - log
+inference samples: 3070 - 2025-05-28 20:26:32,682 - log
+inference samples: 3080 - 2025-05-28 20:26:39,472 - log
+inference samples: 3090 - 2025-05-28 20:26:46,322 - log
+inference samples: 3100 - 2025-05-28 20:26:53,056 - log
+inference samples: 3110 - 2025-05-28 20:26:59,756 - log
+inference samples: 3120 - 2025-05-28 20:27:06,543 - log
+inference samples: 3130 - 2025-05-28 20:27:13,278 - log
+inference samples: 3140 - 2025-05-28 20:27:20,068 - log
+inference samples: 3150 - 2025-05-28 20:27:26,838 - log
+inference samples: 3160 - 2025-05-28 20:27:33,579 - log
+inference samples: 3170 - 2025-05-28 20:27:40,403 - log
+inference samples: 3180 - 2025-05-28 20:27:47,258 - log
+inference samples: 3190 - 2025-05-28 20:27:54,050 - log
+inference samples: 3200 - 2025-05-28 20:28:00,800 - log
+inference samples: 3210 - 2025-05-28 20:28:07,559 - log
+inference samples: 3220 - 2025-05-28 20:28:14,309 - log
+inference samples: 3230 - 2025-05-28 20:28:21,004 - log
+inference samples: 3240 - 2025-05-28 20:28:27,747 - log
+inference samples: 3250 - 2025-05-28 20:28:34,515 - log
+inference samples: 3260 - 2025-05-28 20:28:41,240 - log
+inference samples: 3270 - 2025-05-28 20:28:48,091 - log
+inference samples: 3280 - 2025-05-28 20:28:54,933 - log
+inference samples: 3290 - 2025-05-28 20:29:01,720 - log
+inference samples: 3300 - 2025-05-28 20:29:08,489 - log
+inference samples: 3310 - 2025-05-28 20:29:15,300 - log
+inference samples: 3320 - 2025-05-28 20:29:22,048 - log
+inference samples: 3330 - 2025-05-28 20:29:28,784 - log
+inference samples: 3340 - 2025-05-28 20:29:35,513 - log
+inference samples: 3350 - 2025-05-28 20:29:42,207 - log
+inference samples: 3360 - 2025-05-28 20:29:48,979 - log
+inference samples: 3370 - 2025-05-28 20:29:55,761 - log
+inference samples: 3380 - 2025-05-28 20:30:02,564 - log
+inference samples: 3390 - 2025-05-28 20:30:09,376 - log
+inference samples: 3400 - 2025-05-28 20:30:16,161 - log
+inference samples: 3410 - 2025-05-28 20:30:22,942 - log
+inference samples: 3420 - 2025-05-28 20:30:29,743 - log
+inference samples: 3430 - 2025-05-28 20:30:36,511 - log
+inference samples: 3440 - 2025-05-28 20:30:43,263 - log
+inference samples: 3450 - 2025-05-28 20:30:50,110 - log
+inference samples: 3460 - 2025-05-28 20:30:56,897 - log
+inference samples: 3470 - 2025-05-28 20:31:03,603 - log
+inference samples: 3480 - 2025-05-28 20:31:10,308 - log
+inference samples: 3490 - 2025-05-28 20:31:17,047 - log
+inference samples: 3500 - 2025-05-28 20:31:23,792 - log
+inference samples: 3510 - 2025-05-28 20:31:30,549 - log
+inference samples: 3520 - 2025-05-28 20:31:37,300 - log
+inference samples: 3530 - 2025-05-28 20:31:44,089 - log
+inference samples: 3540 - 2025-05-28 20:31:50,956 - log
+inference samples: 3550 - 2025-05-28 20:31:57,744 - log
+inference samples: 3560 - 2025-05-28 20:32:04,528 - log
+inference samples: 3570 - 2025-05-28 20:32:11,357 - log
+inference samples: 3580 - 2025-05-28 20:32:18,150 - log
+inference samples: 3590 - 2025-05-28 20:32:24,939 - log
+inference samples: 3600 - 2025-05-28 20:32:31,716 - log
+inference samples: 3610 - 2025-05-28 20:32:38,525 - log
+inference samples: 3620 - 2025-05-28 20:32:45,396 - log
+inference samples: 3630 - 2025-05-28 20:32:52,209 - log
+inference samples: 3640 - 2025-05-28 20:32:58,959 - log
+inference samples: 3650 - 2025-05-28 20:33:05,756 - log
+inference samples: 3660 - 2025-05-28 20:33:12,532 - log
+inference samples: 3670 - 2025-05-28 20:33:19,341 - log
+inference samples: 3680 - 2025-05-28 20:33:26,095 - log
+inference samples: 3690 - 2025-05-28 20:33:32,858 - log
+inference samples: 3700 - 2025-05-28 20:33:39,638 - log
+inference samples: 3710 - 2025-05-28 20:33:46,412 - log
+inference samples: 3720 - 2025-05-28 20:33:53,099 - log
+inference samples: 3730 - 2025-05-28 20:33:59,796 - log
+inference samples: 3740 - 2025-05-28 20:34:06,511 - log
+inference samples: 3750 - 2025-05-28 20:34:13,283 - log
+inference samples: 3760 - 2025-05-28 20:34:20,080 - log
+inference samples: 3770 - 2025-05-28 20:34:26,839 - log
+inference samples: 3780 - 2025-05-28 20:34:33,620 - log
+inference samples: 3790 - 2025-05-28 20:34:40,464 - log
+inference samples: 3800 - 2025-05-28 20:34:47,306 - log
+inference samples: 3810 - 2025-05-28 20:34:54,080 - log
+inference samples: 3820 - 2025-05-28 20:35:00,833 - log
+inference samples: 3830 - 2025-05-28 20:35:07,564 - log
+inference samples: 3840 - 2025-05-28 20:35:14,259 - log
+inference samples: 3850 - 2025-05-28 20:35:20,961 - log
+inference samples: 3860 - 2025-05-28 20:35:27,737 - log
+inference samples: 3870 - 2025-05-28 20:35:34,537 - log
+inference samples: 3880 - 2025-05-28 20:35:41,362 - log
+inference samples: 3890 - 2025-05-28 20:35:48,126 - log
+inference samples: 3900 - 2025-05-28 20:35:54,914 - log
+inference samples: 3910 - 2025-05-28 20:36:01,694 - log
+inference samples: 3920 - 2025-05-28 20:36:08,480 - log
+inference samples: 3930 - 2025-05-28 20:36:15,240 - log
+inference samples: 3940 - 2025-05-28 20:36:21,984 - log
+inference samples: 3950 - 2025-05-28 20:36:28,723 - log
+inference samples: 3960 - 2025-05-28 20:36:35,445 - log
+inference samples: 3970 - 2025-05-28 20:36:42,161 - log
+inference samples: 3980 - 2025-05-28 20:36:48,897 - log
+inference samples: 3990 - 2025-05-28 20:36:55,635 - log
+inference samples: 4000 - 2025-05-28 20:37:02,377 - log
+inference samples: 4010 - 2025-05-28 20:37:09,139 - log
+inference samples: 4020 - 2025-05-28 20:37:15,884 - log
+inference samples: 4030 - 2025-05-28 20:37:22,655 - log
+inference samples: 4040 - 2025-05-28 20:37:29,418 - log
+inference samples: 4050 - 2025-05-28 20:37:36,150 - log
+inference samples: 4060 - 2025-05-28 20:37:42,894 - log
+inference samples: 4070 - 2025-05-28 20:37:49,805 - log
+inference samples: 4080 - 2025-05-28 20:37:56,533 - log
+inference samples: 4090 - 2025-05-28 20:38:03,254 - log
+inference samples: 4100 - 2025-05-28 20:38:10,054 - log
+inference samples: 4110 - 2025-05-28 20:38:16,806 - log
+inference samples: 4120 - 2025-05-28 20:38:23,568 - log
+inference samples: 4130 - 2025-05-28 20:38:30,315 - log
+inference samples: 4140 - 2025-05-28 20:38:37,144 - log
+inference samples: 4150 - 2025-05-28 20:38:43,954 - log
+inference samples: 4160 - 2025-05-28 20:38:50,870 - log
+inference samples: 4170 - 2025-05-28 20:38:57,858 - log
+inference samples: 4180 - 2025-05-28 20:39:04,682 - log
+inference samples: 4190 - 2025-05-28 20:39:11,462 - log
+inference samples: 4200 - 2025-05-28 20:39:18,190 - log
+inference samples: 4210 - 2025-05-28 20:39:24,890 - log
+inference samples: 4220 - 2025-05-28 20:39:31,686 - log
+inference samples: 4230 - 2025-05-28 20:39:38,430 - log
+inference samples: 4240 - 2025-05-28 20:39:45,201 - log
+inference samples: 4250 - 2025-05-28 20:39:51,983 - log
+inference samples: 4260 - 2025-05-28 20:39:58,752 - log
+inference samples: 4270 - 2025-05-28 20:40:05,524 - log
+inference samples: 4280 - 2025-05-28 20:40:12,260 - log
+inference samples: 4290 - 2025-05-28 20:40:18,996 - log
+inference samples: 4300 - 2025-05-28 20:40:25,745 - log
+inference samples: 4310 - 2025-05-28 20:40:32,491 - log
+inference samples: 4320 - 2025-05-28 20:40:39,188 - log
+inference samples: 4330 - 2025-05-28 20:40:45,917 - log
+inference samples: 4340 - 2025-05-28 20:40:52,714 - log
+inference samples: 4350 - 2025-05-28 20:40:59,586 - log
+inference samples: 4360 - 2025-05-28 20:41:06,356 - log
+inference samples: 4370 - 2025-05-28 20:41:13,143 - log
+inference samples: 4380 - 2025-05-28 20:41:19,877 - log
+inference samples: 4390 - 2025-05-28 20:41:26,704 - log
+inference samples: 4400 - 2025-05-28 20:41:33,535 - log
+inference samples: 4410 - 2025-05-28 20:41:40,360 - log
+inference samples: 4420 - 2025-05-28 20:41:47,194 - log
+inference samples: 4430 - 2025-05-28 20:41:54,108 - log
+inference samples: 4440 - 2025-05-28 20:42:00,887 - log
+inference samples: 4450 - 2025-05-28 20:42:07,617 - log
+inference samples: 4460 - 2025-05-28 20:42:14,384 - log
+inference samples: 4470 - 2025-05-28 20:42:21,121 - log
+inference samples: 4480 - 2025-05-28 20:42:27,921 - log
+inference samples: 4490 - 2025-05-28 20:42:34,697 - log
+inference samples: 4500 - 2025-05-28 20:42:41,508 - log
+inference samples: 4510 - 2025-05-28 20:42:48,337 - log
+inference samples: 4520 - 2025-05-28 20:42:55,121 - log
+inference samples: 4530 - 2025-05-28 20:43:01,905 - log
+inference samples: 4540 - 2025-05-28 20:43:08,647 - log
+inference samples: 4550 - 2025-05-28 20:43:15,362 - log
+inference samples: 4560 - 2025-05-28 20:43:22,047 - log
+inference samples: 4570 - 2025-05-28 20:43:28,751 - log
+inference samples: 4580 - 2025-05-28 20:43:35,487 - log
+inference samples: 4590 - 2025-05-28 20:43:42,250 - log
+inference samples: 4600 - 2025-05-28 20:43:49,070 - log
+inference samples: 4610 - 2025-05-28 20:43:55,880 - log
+inference samples: 4620 - 2025-05-28 20:44:02,685 - log
+inference samples: 4630 - 2025-05-28 20:44:09,478 - log
+inference samples: 4640 - 2025-05-28 20:44:16,293 - log
+inference samples: 4650 - 2025-05-28 20:44:23,074 - log
+inference samples: 4660 - 2025-05-28 20:44:29,832 - log
+inference samples: 4670 - 2025-05-28 20:44:36,601 - log
+inference samples: 4680 - 2025-05-28 20:44:43,293 - log
+inference samples: 4690 - 2025-05-28 20:44:50,136 - log
+Jittor FPS: 1.4737635630735257 - 2025-05-28 20:44:51,492 - log
+saving prediction file: ./trained_models/GPT2_M/e2e/predict.26290.b10p08r4.jsonl - 2025-05-28 20:44:51,492 - log
+finish inference - 2025-05-28 20:44:51,526 - log
+==================================================================================================== - 2025-05-29 00:39:47,990 - log
+        - random_seed : 2025 - 2025-05-29 00:39:47,990 - log
+        - data : ./data/e2e/test.jsonl - 2025-05-29 00:39:47,990 - log
+        - batch_size : 1 - 2025-05-29 00:39:47,990 - log
+        - seq_len : 64 - 2025-05-29 00:39:47,990 - log
+        - eval_len : 32 - 2025-05-29 00:39:47,990 - log
+        - min_length : 0 - 2025-05-29 00:39:47,990 - log
+        - model_card : gpt2.sm - 2025-05-29 00:39:47,990 - log
+        - init_checkpoint : ./trained_models/GPT2_M/e2e/model..pkl - 2025-05-29 00:39:47,990 - log
+        - lora_dim : 4 - 2025-05-29 00:39:47,990 - log
+        - lora_alpha : 32 - 2025-05-29 00:39:47,990 - log
+        - work_dir : ./trained_models/GPT2_M/e2e - 2025-05-29 00:39:47,990 - log
+        - beam : 10 - 2025-05-29 00:39:47,990 - log
+        - length_penalty : 0.8 - 2025-05-29 00:39:47,990 - log
+        - no_repeat_ngram_size : 4 - 2025-05-29 00:39:47,990 - log
+        - repetition_penalty : 1.0 - 2025-05-29 00:39:47,990 - log
+        - eos_token_id : [50256, 628] - 2025-05-29 00:39:47,990 - log
+        - output_file : predict.26290.b10p08r4.jsonl - 2025-05-29 00:39:47,990 - log
+        - device : cuda - 2025-05-29 00:39:47,990 - log
+==================================================================================================== - 2025-05-29 00:39:47,990 - log
+--------------------------------------------------test-------------------------------------------------- - 2025-05-29 00:39:47,990 - log
+loading model pretrained weight. - 2025-05-29 00:39:48,112 - log
+==================================================================================================== - 2025-05-29 00:40:11,706 - log
+        - random_seed : 2025 - 2025-05-29 00:40:11,707 - log
+        - data : ./data/e2e/test.jsonl - 2025-05-29 00:40:11,707 - log
+        - batch_size : 1 - 2025-05-29 00:40:11,707 - log
+        - seq_len : 64 - 2025-05-29 00:40:11,707 - log
+        - eval_len : 32 - 2025-05-29 00:40:11,707 - log
+        - min_length : 0 - 2025-05-29 00:40:11,707 - log
+        - model_card : gpt2.sm - 2025-05-29 00:40:11,707 - log
+        - init_checkpoint : ./trained_models/GPT2_M/e2e/model.26290.pkl - 2025-05-29 00:40:11,707 - log
+        - lora_dim : 4 - 2025-05-29 00:40:11,707 - log
+        - lora_alpha : 32 - 2025-05-29 00:40:11,707 - log
+        - work_dir : ./trained_models/GPT2_M/e2e - 2025-05-29 00:40:11,707 - log
+        - beam : 10 - 2025-05-29 00:40:11,707 - log
+        - length_penalty : 0.8 - 2025-05-29 00:40:11,707 - log
+        - no_repeat_ngram_size : 4 - 2025-05-29 00:40:11,707 - log
+        - repetition_penalty : 1.0 - 2025-05-29 00:40:11,707 - log
+        - eos_token_id : [50256, 628] - 2025-05-29 00:40:11,707 - log
+        - output_file : predict.26290.b10p08r4.jsonl - 2025-05-29 00:40:11,707 - log
+        - device : cuda - 2025-05-29 00:40:11,707 - log
+==================================================================================================== - 2025-05-29 00:40:11,707 - log
+--------------------------------------------------test-------------------------------------------------- - 2025-05-29 00:40:11,707 - log
+loading model pretrained weight. - 2025-05-29 00:40:11,829 - log
+model sampling ... - 2025-05-29 00:40:13,271 - log
+inference samples: 0 - 2025-05-29 00:40:14,158 - log
+inference samples: 10 - 2025-05-29 00:40:20,930 - log
+inference samples: 20 - 2025-05-29 00:40:27,736 - log
+inference samples: 30 - 2025-05-29 00:40:34,522 - log
+inference samples: 40 - 2025-05-29 00:40:41,311 - log
+inference samples: 50 - 2025-05-29 00:40:48,175 - log
+inference samples: 60 - 2025-05-29 00:40:55,008 - log
+inference samples: 70 - 2025-05-29 00:41:01,783 - log
+inference samples: 80 - 2025-05-29 00:41:08,685 - log
+inference samples: 90 - 2025-05-29 00:41:15,471 - log
+inference samples: 100 - 2025-05-29 00:41:22,308 - log
+inference samples: 110 - 2025-05-29 00:41:29,123 - log
+inference samples: 120 - 2025-05-29 00:41:35,977 - log
+inference samples: 130 - 2025-05-29 00:41:42,796 - log
+inference samples: 140 - 2025-05-29 00:41:49,636 - log
+inference samples: 150 - 2025-05-29 00:41:56,557 - log
+inference samples: 160 - 2025-05-29 00:42:03,393 - log
+inference samples: 170 - 2025-05-29 00:42:10,225 - log
+inference samples: 180 - 2025-05-29 00:42:17,122 - log
+inference samples: 190 - 2025-05-29 00:42:23,897 - log
+inference samples: 200 - 2025-05-29 00:42:30,659 - log
+inference samples: 210 - 2025-05-29 00:42:37,495 - log
+inference samples: 220 - 2025-05-29 00:42:44,313 - log
+inference samples: 230 - 2025-05-29 00:42:51,122 - log
+inference samples: 240 - 2025-05-29 00:42:57,916 - log
+inference samples: 250 - 2025-05-29 00:43:04,692 - log
+inference samples: 260 - 2025-05-29 00:43:11,600 - log
+inference samples: 270 - 2025-05-29 00:43:18,516 - log
+inference samples: 280 - 2025-05-29 00:43:25,398 - log
+inference samples: 290 - 2025-05-29 00:43:32,184 - log
+inference samples: 300 - 2025-05-29 00:43:38,994 - log
+inference samples: 310 - 2025-05-29 00:43:45,897 - log
+inference samples: 320 - 2025-05-29 00:43:52,730 - log
+inference samples: 330 - 2025-05-29 00:43:59,559 - log
+inference samples: 340 - 2025-05-29 00:44:06,417 - log
+inference samples: 350 - 2025-05-29 00:44:13,235 - log
+inference samples: 360 - 2025-05-29 00:44:20,043 - log
+inference samples: 370 - 2025-05-29 00:44:26,800 - log
+inference samples: 380 - 2025-05-29 00:44:33,553 - log
+inference samples: 390 - 2025-05-29 00:44:40,422 - log
+inference samples: 400 - 2025-05-29 00:44:47,219 - log
+inference samples: 410 - 2025-05-29 00:44:54,063 - log
+inference samples: 420 - 2025-05-29 00:45:00,892 - log
+inference samples: 430 - 2025-05-29 00:45:07,765 - log
+inference samples: 440 - 2025-05-29 00:45:14,565 - log
+inference samples: 450 - 2025-05-29 00:45:21,504 - log
+inference samples: 460 - 2025-05-29 00:45:28,410 - log
+inference samples: 470 - 2025-05-29 00:45:35,231 - log
+inference samples: 480 - 2025-05-29 00:45:42,041 - log
+inference samples: 490 - 2025-05-29 00:45:48,822 - log
+inference samples: 500 - 2025-05-29 00:45:55,643 - log
+inference samples: 510 - 2025-05-29 00:46:02,473 - log
+inference samples: 520 - 2025-05-29 00:46:09,310 - log
+inference samples: 530 - 2025-05-29 00:46:16,165 - log
+inference samples: 540 - 2025-05-29 00:46:23,007 - log
+inference samples: 550 - 2025-05-29 00:46:29,869 - log
+inference samples: 560 - 2025-05-29 00:46:36,735 - log
+inference samples: 570 - 2025-05-29 00:46:43,555 - log
+inference samples: 580 - 2025-05-29 00:46:50,355 - log
+inference samples: 590 - 2025-05-29 00:46:57,208 - log
+inference samples: 600 - 2025-05-29 00:47:04,072 - log
+inference samples: 610 - 2025-05-29 00:47:10,831 - log
+inference samples: 620 - 2025-05-29 00:47:17,601 - log
+inference samples: 630 - 2025-05-29 00:47:24,405 - log
+inference samples: 640 - 2025-05-29 00:47:31,227 - log
+inference samples: 650 - 2025-05-29 00:47:38,084 - log
+inference samples: 660 - 2025-05-29 00:47:44,898 - log
+inference samples: 670 - 2025-05-29 00:47:51,678 - log
+inference samples: 680 - 2025-05-29 00:47:58,587 - log
+inference samples: 690 - 2025-05-29 00:48:05,418 - log
+inference samples: 700 - 2025-05-29 00:48:12,155 - log
+inference samples: 710 - 2025-05-29 00:48:18,916 - log
+inference samples: 720 - 2025-05-29 00:48:25,681 - log
+inference samples: 730 - 2025-05-29 00:48:32,378 - log
+inference samples: 740 - 2025-05-29 00:48:39,082 - log
+inference samples: 750 - 2025-05-29 00:48:45,810 - log
+inference samples: 760 - 2025-05-29 00:48:52,544 - log
+inference samples: 770 - 2025-05-29 00:48:59,293 - log
+inference samples: 780 - 2025-05-29 00:49:06,024 - log
+inference samples: 790 - 2025-05-29 00:49:12,823 - log
+inference samples: 800 - 2025-05-29 00:49:19,552 - log
+inference samples: 810 - 2025-05-29 00:49:26,266 - log
+inference samples: 820 - 2025-05-29 00:49:33,140 - log
+inference samples: 830 - 2025-05-29 00:49:39,972 - log
+inference samples: 840 - 2025-05-29 00:49:46,827 - log
+inference samples: 850 - 2025-05-29 00:49:53,702 - log
+inference samples: 860 - 2025-05-29 00:50:00,485 - log
+inference samples: 870 - 2025-05-29 00:50:07,274 - log
+inference samples: 880 - 2025-05-29 00:50:14,101 - log
+inference samples: 890 - 2025-05-29 00:50:20,929 - log
+inference samples: 900 - 2025-05-29 00:50:27,666 - log
+inference samples: 910 - 2025-05-29 00:50:34,438 - log
+inference samples: 920 - 2025-05-29 00:50:41,194 - log
+inference samples: 930 - 2025-05-29 00:50:47,982 - log
+inference samples: 940 - 2025-05-29 00:50:54,774 - log
+inference samples: 950 - 2025-05-29 00:51:01,586 - log
+inference samples: 960 - 2025-05-29 00:51:08,375 - log
+inference samples: 970 - 2025-05-29 00:51:15,185 - log
+inference samples: 980 - 2025-05-29 00:51:21,947 - log
+inference samples: 990 - 2025-05-29 00:51:28,718 - log
+inference samples: 1000 - 2025-05-29 00:51:35,525 - log
+inference samples: 1010 - 2025-05-29 00:51:42,345 - log
+inference samples: 1020 - 2025-05-29 00:51:49,146 - log
+inference samples: 1030 - 2025-05-29 00:51:55,935 - log
+inference samples: 1040 - 2025-05-29 00:52:02,759 - log
+inference samples: 1050 - 2025-05-29 00:52:09,531 - log
+inference samples: 1060 - 2025-05-29 00:52:16,383 - log
+inference samples: 1070 - 2025-05-29 00:52:23,145 - log
+inference samples: 1080 - 2025-05-29 00:52:29,880 - log
+inference samples: 1090 - 2025-05-29 00:52:36,687 - log
+inference samples: 1100 - 2025-05-29 00:52:43,477 - log
+inference samples: 1110 - 2025-05-29 00:52:50,261 - log
+inference samples: 1120 - 2025-05-29 00:52:57,076 - log
+inference samples: 1130 - 2025-05-29 00:53:03,878 - log
+inference samples: 1140 - 2025-05-29 00:53:10,703 - log
+inference samples: 1150 - 2025-05-29 00:53:17,460 - log
+inference samples: 1160 - 2025-05-29 00:53:24,268 - log
+inference samples: 1170 - 2025-05-29 00:53:31,097 - log
+inference samples: 1180 - 2025-05-29 00:53:37,895 - log
+inference samples: 1190 - 2025-05-29 00:53:44,651 - log
+inference samples: 1200 - 2025-05-29 00:53:51,453 - log
+inference samples: 1210 - 2025-05-29 00:53:58,325 - log
+inference samples: 1220 - 2025-05-29 00:54:05,108 - log
+inference samples: 1230 - 2025-05-29 00:54:11,890 - log
+inference samples: 1240 - 2025-05-29 00:54:18,706 - log
+inference samples: 1250 - 2025-05-29 00:54:25,493 - log
+inference samples: 1260 - 2025-05-29 00:54:32,383 - log
+inference samples: 1270 - 2025-05-29 00:54:39,155 - log
+inference samples: 1280 - 2025-05-29 00:54:45,949 - log
+inference samples: 1290 - 2025-05-29 00:54:52,731 - log
+inference samples: 1300 - 2025-05-29 00:54:59,507 - log
+inference samples: 1310 - 2025-05-29 00:55:06,337 - log
+inference samples: 1320 - 2025-05-29 00:55:13,194 - log
+inference samples: 1330 - 2025-05-29 00:55:19,911 - log
+inference samples: 1340 - 2025-05-29 00:55:26,609 - log
+inference samples: 1350 - 2025-05-29 00:55:33,301 - log
+inference samples: 1360 - 2025-05-29 00:55:40,075 - log
+inference samples: 1370 - 2025-05-29 00:55:46,841 - log
+inference samples: 1380 - 2025-05-29 00:55:53,630 - log
+inference samples: 1390 - 2025-05-29 00:56:00,504 - log
+inference samples: 1400 - 2025-05-29 00:56:07,316 - log
+inference samples: 1410 - 2025-05-29 00:56:14,114 - log
+inference samples: 1420 - 2025-05-29 00:56:20,942 - log
+inference samples: 1430 - 2025-05-29 00:56:27,731 - log
+inference samples: 1440 - 2025-05-29 00:56:34,532 - log
+inference samples: 1450 - 2025-05-29 00:56:41,389 - log
+inference samples: 1460 - 2025-05-29 00:56:48,123 - log
+inference samples: 1470 - 2025-05-29 00:56:54,833 - log
+inference samples: 1480 - 2025-05-29 00:57:01,640 - log
+inference samples: 1490 - 2025-05-29 00:57:08,546 - log
+inference samples: 1500 - 2025-05-29 00:57:15,401 - log
+inference samples: 1510 - 2025-05-29 00:57:22,223 - log
+inference samples: 1520 - 2025-05-29 00:57:29,106 - log
+inference samples: 1530 - 2025-05-29 00:57:35,912 - log
+inference samples: 1540 - 2025-05-29 00:57:42,660 - log
+inference samples: 1550 - 2025-05-29 00:57:49,552 - log
+inference samples: 1560 - 2025-05-29 00:57:56,346 - log
+inference samples: 1570 - 2025-05-29 00:58:03,147 - log
+inference samples: 1580 - 2025-05-29 00:58:09,976 - log
+inference samples: 1590 - 2025-05-29 00:58:16,678 - log
+inference samples: 1600 - 2025-05-29 00:58:23,443 - log
+inference samples: 1610 - 2025-05-29 00:58:30,260 - log
+inference samples: 1620 - 2025-05-29 00:58:37,176 - log
+inference samples: 1630 - 2025-05-29 00:58:44,129 - log
+inference samples: 1640 - 2025-05-29 00:58:51,016 - log
+inference samples: 1650 - 2025-05-29 00:58:57,832 - log
+inference samples: 1660 - 2025-05-29 00:59:04,667 - log
+inference samples: 1670 - 2025-05-29 00:59:11,524 - log
+inference samples: 1680 - 2025-05-29 00:59:18,340 - log
+inference samples: 1690 - 2025-05-29 00:59:25,150 - log
+inference samples: 1700 - 2025-05-29 00:59:32,037 - log
+inference samples: 1710 - 2025-05-29 00:59:38,852 - log
+inference samples: 1720 - 2025-05-29 00:59:45,648 - log
+inference samples: 1730 - 2025-05-29 00:59:52,475 - log
+inference samples: 1740 - 2025-05-29 00:59:59,311 - log
+inference samples: 1750 - 2025-05-29 01:00:06,077 - log
+inference samples: 1760 - 2025-05-29 01:00:12,800 - log
+inference samples: 1770 - 2025-05-29 01:00:19,576 - log
+inference samples: 1780 - 2025-05-29 01:00:26,328 - log
+inference samples: 1790 - 2025-05-29 01:00:33,074 - log
+inference samples: 1800 - 2025-05-29 01:00:39,849 - log
+inference samples: 1810 - 2025-05-29 01:00:46,601 - log
+inference samples: 1820 - 2025-05-29 01:00:53,381 - log
+inference samples: 1830 - 2025-05-29 01:01:00,145 - log
+inference samples: 1840 - 2025-05-29 01:01:06,854 - log
+inference samples: 1850 - 2025-05-29 01:01:13,641 - log
+inference samples: 1860 - 2025-05-29 01:01:20,465 - log
+inference samples: 1870 - 2025-05-29 01:01:27,215 - log
+inference samples: 1880 - 2025-05-29 01:01:34,048 - log
+inference samples: 1890 - 2025-05-29 01:01:40,778 - log
+inference samples: 1900 - 2025-05-29 01:01:47,632 - log
+inference samples: 1910 - 2025-05-29 01:01:54,432 - log
+inference samples: 1920 - 2025-05-29 01:02:01,311 - log
+inference samples: 1930 - 2025-05-29 01:02:08,173 - log
+inference samples: 1940 - 2025-05-29 01:02:14,961 - log
+inference samples: 1950 - 2025-05-29 01:02:21,716 - log
+inference samples: 1960 - 2025-05-29 01:02:28,545 - log
+inference samples: 1970 - 2025-05-29 01:02:35,331 - log
+inference samples: 1980 - 2025-05-29 01:02:42,079 - log
+inference samples: 1990 - 2025-05-29 01:02:48,944 - log
+inference samples: 2000 - 2025-05-29 01:02:55,740 - log
+inference samples: 2010 - 2025-05-29 01:03:02,515 - log
+inference samples: 2020 - 2025-05-29 01:03:09,280 - log
+inference samples: 2030 - 2025-05-29 01:03:16,095 - log
+inference samples: 2040 - 2025-05-29 01:03:22,903 - log
+inference samples: 2050 - 2025-05-29 01:03:29,780 - log
+inference samples: 2060 - 2025-05-29 01:03:36,642 - log
+inference samples: 2070 - 2025-05-29 01:03:43,482 - log
+inference samples: 2080 - 2025-05-29 01:03:50,220 - log
+inference samples: 2090 - 2025-05-29 01:03:57,009 - log
+inference samples: 2100 - 2025-05-29 01:04:03,855 - log
+inference samples: 2110 - 2025-05-29 01:04:10,700 - log
+inference samples: 2120 - 2025-05-29 01:04:17,516 - log
+inference samples: 2130 - 2025-05-29 01:04:24,296 - log
+inference samples: 2140 - 2025-05-29 01:04:31,104 - log
+inference samples: 2150 - 2025-05-29 01:04:37,952 - log
+inference samples: 2160 - 2025-05-29 01:04:44,763 - log
+inference samples: 2170 - 2025-05-29 01:04:51,703 - log
+inference samples: 2180 - 2025-05-29 01:04:58,755 - log
+inference samples: 2190 - 2025-05-29 01:05:05,755 - log
+inference samples: 2200 - 2025-05-29 01:05:12,712 - log
+inference samples: 2210 - 2025-05-29 01:05:19,732 - log
+inference samples: 2220 - 2025-05-29 01:05:26,732 - log
+inference samples: 2230 - 2025-05-29 01:05:33,731 - log
+inference samples: 2240 - 2025-05-29 01:05:40,719 - log
+inference samples: 2250 - 2025-05-29 01:05:47,611 - log
+inference samples: 2260 - 2025-05-29 01:05:54,483 - log
+inference samples: 2270 - 2025-05-29 01:06:01,266 - log
+inference samples: 2280 - 2025-05-29 01:06:08,143 - log
+inference samples: 2290 - 2025-05-29 01:06:14,938 - log
+inference samples: 2300 - 2025-05-29 01:06:21,766 - log
+inference samples: 2310 - 2025-05-29 01:06:28,601 - log
+inference samples: 2320 - 2025-05-29 01:06:35,378 - log
+inference samples: 2330 - 2025-05-29 01:06:42,225 - log
+inference samples: 2340 - 2025-05-29 01:06:49,066 - log
+inference samples: 2350 - 2025-05-29 01:06:55,929 - log
+inference samples: 2360 - 2025-05-29 01:07:02,732 - log
+inference samples: 2370 - 2025-05-29 01:07:09,664 - log
+inference samples: 2380 - 2025-05-29 01:07:16,543 - log
+inference samples: 2390 - 2025-05-29 01:07:23,335 - log
+inference samples: 2400 - 2025-05-29 01:07:30,143 - log
+inference samples: 2410 - 2025-05-29 01:07:36,946 - log
+inference samples: 2420 - 2025-05-29 01:07:43,730 - log
+inference samples: 2430 - 2025-05-29 01:07:50,501 - log
+inference samples: 2440 - 2025-05-29 01:07:57,212 - log
+inference samples: 2450 - 2025-05-29 01:08:03,963 - log
+inference samples: 2460 - 2025-05-29 01:08:10,748 - log
+inference samples: 2470 - 2025-05-29 01:08:17,512 - log
+inference samples: 2480 - 2025-05-29 01:08:24,270 - log
+inference samples: 2490 - 2025-05-29 01:08:31,002 - log
+inference samples: 2500 - 2025-05-29 01:08:37,761 - log
+inference samples: 2510 - 2025-05-29 01:08:44,536 - log
+inference samples: 2520 - 2025-05-29 01:08:51,294 - log
+inference samples: 2530 - 2025-05-29 01:08:58,144 - log
+inference samples: 2540 - 2025-05-29 01:09:04,969 - log
+inference samples: 2550 - 2025-05-29 01:09:11,836 - log
+inference samples: 2560 - 2025-05-29 01:09:18,639 - log
+inference samples: 2570 - 2025-05-29 01:09:25,436 - log
+inference samples: 2580 - 2025-05-29 01:09:32,292 - log
+inference samples: 2590 - 2025-05-29 01:09:39,182 - log
+inference samples: 2600 - 2025-05-29 01:09:46,026 - log
+inference samples: 2610 - 2025-05-29 01:09:52,872 - log
+inference samples: 2620 - 2025-05-29 01:09:59,725 - log
+inference samples: 2630 - 2025-05-29 01:10:06,603 - log
+inference samples: 2640 - 2025-05-29 01:10:13,461 - log
+inference samples: 2650 - 2025-05-29 01:10:20,313 - log
+inference samples: 2660 - 2025-05-29 01:10:27,281 - log
+inference samples: 2670 - 2025-05-29 01:10:34,316 - log
+inference samples: 2680 - 2025-05-29 01:10:41,270 - log
+inference samples: 2690 - 2025-05-29 01:10:48,103 - log
+inference samples: 2700 - 2025-05-29 01:10:54,899 - log
+inference samples: 2710 - 2025-05-29 01:11:01,681 - log
+inference samples: 2720 - 2025-05-29 01:11:08,440 - log
+inference samples: 2730 - 2025-05-29 01:11:15,212 - log
+inference samples: 2740 - 2025-05-29 01:11:22,010 - log
+inference samples: 2750 - 2025-05-29 01:11:28,860 - log
+inference samples: 2760 - 2025-05-29 01:11:35,661 - log
+inference samples: 2770 - 2025-05-29 01:11:42,467 - log
+inference samples: 2780 - 2025-05-29 01:11:49,312 - log
+inference samples: 2790 - 2025-05-29 01:11:56,191 - log
+inference samples: 2800 - 2025-05-29 01:12:03,026 - log
+inference samples: 2810 - 2025-05-29 01:12:09,811 - log
+inference samples: 2820 - 2025-05-29 01:12:16,695 - log
+inference samples: 2830 - 2025-05-29 01:12:23,536 - log
+inference samples: 2840 - 2025-05-29 01:12:30,335 - log
+inference samples: 2850 - 2025-05-29 01:12:37,156 - log
+inference samples: 2860 - 2025-05-29 01:12:43,933 - log
+inference samples: 2870 - 2025-05-29 01:12:50,744 - log
+inference samples: 2880 - 2025-05-29 01:12:57,575 - log
+inference samples: 2890 - 2025-05-29 01:13:04,388 - log
+inference samples: 2900 - 2025-05-29 01:13:11,172 - log
+inference samples: 2910 - 2025-05-29 01:13:18,012 - log
+inference samples: 2920 - 2025-05-29 01:13:24,796 - log
+inference samples: 2930 - 2025-05-29 01:13:31,572 - log
+inference samples: 2940 - 2025-05-29 01:13:38,358 - log
+inference samples: 2950 - 2025-05-29 01:13:45,160 - log
+inference samples: 2960 - 2025-05-29 01:13:51,987 - log
+inference samples: 2970 - 2025-05-29 01:13:58,800 - log
+inference samples: 2980 - 2025-05-29 01:14:05,547 - log
+inference samples: 2990 - 2025-05-29 01:14:12,319 - log
+inference samples: 3000 - 2025-05-29 01:14:19,080 - log
+inference samples: 3010 - 2025-05-29 01:14:25,901 - log
+inference samples: 3020 - 2025-05-29 01:14:32,707 - log
+inference samples: 3030 - 2025-05-29 01:14:39,472 - log
+inference samples: 3040 - 2025-05-29 01:14:46,297 - log
+inference samples: 3050 - 2025-05-29 01:14:53,024 - log
+inference samples: 3060 - 2025-05-29 01:14:59,743 - log
+inference samples: 3070 - 2025-05-29 01:15:06,535 - log
+inference samples: 3080 - 2025-05-29 01:15:13,271 - log
+inference samples: 3090 - 2025-05-29 01:15:20,030 - log
+inference samples: 3100 - 2025-05-29 01:15:26,811 - log
+inference samples: 3110 - 2025-05-29 01:15:33,576 - log
+inference samples: 3120 - 2025-05-29 01:15:40,369 - log
+inference samples: 3130 - 2025-05-29 01:15:47,202 - log
+inference samples: 3140 - 2025-05-29 01:15:54,128 - log
+inference samples: 3150 - 2025-05-29 01:16:00,883 - log
+inference samples: 3160 - 2025-05-29 01:16:07,653 - log
+inference samples: 3170 - 2025-05-29 01:16:14,421 - log
+inference samples: 3180 - 2025-05-29 01:16:21,260 - log
+inference samples: 3190 - 2025-05-29 01:16:28,117 - log
+inference samples: 3200 - 2025-05-29 01:16:34,986 - log
+inference samples: 3210 - 2025-05-29 01:16:41,809 - log
+inference samples: 3220 - 2025-05-29 01:16:48,595 - log
+inference samples: 3230 - 2025-05-29 01:16:55,533 - log
+inference samples: 3240 - 2025-05-29 01:17:02,331 - log
+inference samples: 3250 - 2025-05-29 01:17:09,187 - log
+inference samples: 3260 - 2025-05-29 01:17:15,988 - log
+inference samples: 3270 - 2025-05-29 01:17:22,763 - log
+inference samples: 3280 - 2025-05-29 01:17:29,634 - log
+inference samples: 3290 - 2025-05-29 01:17:36,460 - log
+inference samples: 3300 - 2025-05-29 01:17:43,208 - log
+inference samples: 3310 - 2025-05-29 01:17:49,948 - log
+inference samples: 3320 - 2025-05-29 01:17:56,679 - log
+inference samples: 3330 - 2025-05-29 01:18:03,474 - log
+inference samples: 3340 - 2025-05-29 01:18:10,222 - log
+inference samples: 3350 - 2025-05-29 01:18:16,966 - log
+inference samples: 3360 - 2025-05-29 01:18:23,748 - log
+inference samples: 3370 - 2025-05-29 01:18:30,501 - log
+inference samples: 3380 - 2025-05-29 01:18:37,235 - log
+inference samples: 3390 - 2025-05-29 01:18:43,973 - log
+inference samples: 3400 - 2025-05-29 01:18:50,701 - log
+inference samples: 3410 - 2025-05-29 01:18:57,390 - log
+inference samples: 3420 - 2025-05-29 01:19:04,120 - log
+inference samples: 3430 - 2025-05-29 01:19:10,855 - log
+inference samples: 3440 - 2025-05-29 01:19:17,644 - log
+inference samples: 3450 - 2025-05-29 01:19:24,420 - log
+inference samples: 3460 - 2025-05-29 01:19:31,216 - log
+inference samples: 3470 - 2025-05-29 01:19:37,966 - log
+inference samples: 3480 - 2025-05-29 01:19:44,769 - log
+inference samples: 3490 - 2025-05-29 01:19:51,643 - log
+inference samples: 3500 - 2025-05-29 01:19:58,440 - log
+inference samples: 3510 - 2025-05-29 01:20:05,212 - log
+inference samples: 3520 - 2025-05-29 01:20:12,104 - log
+inference samples: 3530 - 2025-05-29 01:20:18,913 - log
+inference samples: 3540 - 2025-05-29 01:20:25,696 - log
+inference samples: 3550 - 2025-05-29 01:20:32,513 - log
+inference samples: 3560 - 2025-05-29 01:20:39,254 - log
+inference samples: 3570 - 2025-05-29 01:20:46,010 - log
+inference samples: 3580 - 2025-05-29 01:20:52,833 - log
+inference samples: 3590 - 2025-05-29 01:20:59,596 - log
+inference samples: 3600 - 2025-05-29 01:21:06,325 - log
+inference samples: 3610 - 2025-05-29 01:21:13,176 - log
+inference samples: 3620 - 2025-05-29 01:21:20,022 - log
+inference samples: 3630 - 2025-05-29 01:21:26,884 - log
+inference samples: 3640 - 2025-05-29 01:21:33,651 - log
+inference samples: 3650 - 2025-05-29 01:21:40,422 - log
+inference samples: 3660 - 2025-05-29 01:21:47,135 - log
+inference samples: 3670 - 2025-05-29 01:21:53,956 - log
+inference samples: 3680 - 2025-05-29 01:22:00,771 - log
+inference samples: 3690 - 2025-05-29 01:22:07,567 - log
+inference samples: 3700 - 2025-05-29 01:22:14,315 - log
+inference samples: 3710 - 2025-05-29 01:22:21,127 - log
+inference samples: 3720 - 2025-05-29 01:22:27,962 - log
+inference samples: 3730 - 2025-05-29 01:22:34,781 - log
+inference samples: 3740 - 2025-05-29 01:22:41,650 - log
+inference samples: 3750 - 2025-05-29 01:22:48,452 - log
+inference samples: 3760 - 2025-05-29 01:22:55,261 - log
+inference samples: 3770 - 2025-05-29 01:23:02,048 - log
+inference samples: 3780 - 2025-05-29 01:23:08,766 - log
+inference samples: 3790 - 2025-05-29 01:23:15,483 - log
+inference samples: 3800 - 2025-05-29 01:23:22,270 - log
+inference samples: 3810 - 2025-05-29 01:23:29,002 - log
+inference samples: 3820 - 2025-05-29 01:23:35,786 - log
+inference samples: 3830 - 2025-05-29 01:23:42,619 - log
+inference samples: 3840 - 2025-05-29 01:23:49,398 - log
+inference samples: 3850 - 2025-05-29 01:23:56,207 - log
+inference samples: 3860 - 2025-05-29 01:24:03,032 - log
+inference samples: 3870 - 2025-05-29 01:24:09,885 - log
+inference samples: 3880 - 2025-05-29 01:24:16,707 - log
+inference samples: 3890 - 2025-05-29 01:24:23,486 - log
+inference samples: 3900 - 2025-05-29 01:24:30,264 - log
+inference samples: 3910 - 2025-05-29 01:24:36,988 - log
+inference samples: 3920 - 2025-05-29 01:24:43,760 - log
+inference samples: 3930 - 2025-05-29 01:24:50,640 - log
+inference samples: 3940 - 2025-05-29 01:24:57,468 - log
+inference samples: 3950 - 2025-05-29 01:25:04,270 - log
+inference samples: 3960 - 2025-05-29 01:25:11,115 - log
+inference samples: 3970 - 2025-05-29 01:25:17,867 - log
+inference samples: 3980 - 2025-05-29 01:25:24,617 - log
+inference samples: 3990 - 2025-05-29 01:25:31,414 - log
+inference samples: 4000 - 2025-05-29 01:25:38,189 - log
+inference samples: 4010 - 2025-05-29 01:25:44,951 - log
+inference samples: 4020 - 2025-05-29 01:25:51,702 - log
+inference samples: 4030 - 2025-05-29 01:25:58,406 - log
+inference samples: 4040 - 2025-05-29 01:26:05,187 - log
+inference samples: 4050 - 2025-05-29 01:26:12,115 - log
+inference samples: 4060 - 2025-05-29 01:26:18,937 - log
+inference samples: 4070 - 2025-05-29 01:26:25,736 - log
+inference samples: 4080 - 2025-05-29 01:26:32,566 - log
+inference samples: 4090 - 2025-05-29 01:26:39,391 - log
+inference samples: 4100 - 2025-05-29 01:26:46,194 - log
+inference samples: 4110 - 2025-05-29 01:26:53,011 - log
+inference samples: 4120 - 2025-05-29 01:26:59,867 - log
+inference samples: 4130 - 2025-05-29 01:27:06,702 - log
+inference samples: 4140 - 2025-05-29 01:27:13,467 - log
+inference samples: 4150 - 2025-05-29 01:27:20,245 - log
+inference samples: 4160 - 2025-05-29 01:27:27,058 - log
+inference samples: 4170 - 2025-05-29 01:27:33,884 - log
+inference samples: 4180 - 2025-05-29 01:27:40,670 - log
+inference samples: 4190 - 2025-05-29 01:27:47,524 - log
+inference samples: 4200 - 2025-05-29 01:27:54,401 - log
+inference samples: 4210 - 2025-05-29 01:28:01,267 - log
+inference samples: 4220 - 2025-05-29 01:28:08,173 - log
+inference samples: 4230 - 2025-05-29 01:28:14,978 - log
+inference samples: 4240 - 2025-05-29 01:28:21,810 - log
+inference samples: 4250 - 2025-05-29 01:28:28,655 - log
+inference samples: 4260 - 2025-05-29 01:28:35,471 - log
+inference samples: 4270 - 2025-05-29 01:28:42,243 - log
+inference samples: 4280 - 2025-05-29 01:28:49,117 - log
+inference samples: 4290 - 2025-05-29 01:28:55,931 - log
+inference samples: 4300 - 2025-05-29 01:29:02,734 - log
+inference samples: 4310 - 2025-05-29 01:29:09,577 - log
+inference samples: 4320 - 2025-05-29 01:29:16,432 - log
+inference samples: 4330 - 2025-05-29 01:29:23,234 - log
+inference samples: 4340 - 2025-05-29 01:29:30,041 - log
+inference samples: 4350 - 2025-05-29 01:29:36,797 - log
+inference samples: 4360 - 2025-05-29 01:29:43,537 - log
+inference samples: 4370 - 2025-05-29 01:29:50,296 - log
+inference samples: 4380 - 2025-05-29 01:29:57,020 - log
+inference samples: 4390 - 2025-05-29 01:30:03,779 - log
+inference samples: 4400 - 2025-05-29 01:30:10,574 - log
+inference samples: 4410 - 2025-05-29 01:30:17,380 - log
+inference samples: 4420 - 2025-05-29 01:30:24,232 - log
+inference samples: 4430 - 2025-05-29 01:30:31,078 - log
+inference samples: 4440 - 2025-05-29 01:30:37,893 - log
+inference samples: 4450 - 2025-05-29 01:30:44,679 - log
+inference samples: 4460 - 2025-05-29 01:30:51,507 - log
+inference samples: 4470 - 2025-05-29 01:30:58,329 - log
+inference samples: 4480 - 2025-05-29 01:31:05,180 - log
+inference samples: 4490 - 2025-05-29 01:31:11,979 - log
+inference samples: 4500 - 2025-05-29 01:31:18,803 - log
+inference samples: 4510 - 2025-05-29 01:31:25,562 - log
+inference samples: 4520 - 2025-05-29 01:31:32,349 - log
+inference samples: 4530 - 2025-05-29 01:31:39,180 - log
+inference samples: 4540 - 2025-05-29 01:31:45,933 - log
+inference samples: 4550 - 2025-05-29 01:31:52,774 - log
+inference samples: 4560 - 2025-05-29 01:31:59,548 - log
+inference samples: 4570 - 2025-05-29 01:32:06,481 - log
+inference samples: 4580 - 2025-05-29 01:32:13,269 - log
+inference samples: 4590 - 2025-05-29 01:32:20,107 - log
+inference samples: 4600 - 2025-05-29 01:32:26,892 - log
+inference samples: 4610 - 2025-05-29 01:32:33,667 - log
+inference samples: 4620 - 2025-05-29 01:32:40,533 - log
+inference samples: 4630 - 2025-05-29 01:32:47,367 - log
+inference samples: 4640 - 2025-05-29 01:32:54,139 - log
+inference samples: 4650 - 2025-05-29 01:33:00,920 - log
+inference samples: 4660 - 2025-05-29 01:33:07,754 - log
+inference samples: 4670 - 2025-05-29 01:33:14,614 - log
+inference samples: 4680 - 2025-05-29 01:33:21,397 - log
+inference samples: 4690 - 2025-05-29 01:33:28,197 - log
+Jittor FPS: 1.4683455657675863 - 2025-05-29 01:33:29,554 - log
+saving prediction file: ./trained_models/GPT2_M/e2e/predict.26290.b10p08r4.jsonl - 2025-05-29 01:33:29,554 - log
+finish inference - 2025-05-29 01:33:29,589 - log
+==================================================================================================== - 2025-05-29 07:31:41,700 - log
+        - random_seed : 2025 - 2025-05-29 07:31:41,700 - log
+        - data : ./data/e2e/test.jsonl - 2025-05-29 07:31:41,700 - log
+        - batch_size : 1 - 2025-05-29 07:31:41,700 - log
+        - seq_len : 64 - 2025-05-29 07:31:41,700 - log
+        - eval_len : 32 - 2025-05-29 07:31:41,701 - log
+        - min_length : 0 - 2025-05-29 07:31:41,701 - log
+        - model_card : gpt2.sm - 2025-05-29 07:31:41,701 - log
+        - init_checkpoint : ./trained_models/GPT2_M/e2e/model.26290.pkl - 2025-05-29 07:31:41,701 - log
+        - lora_dim : 4 - 2025-05-29 07:31:41,701 - log
+        - lora_alpha : 32 - 2025-05-29 07:31:41,701 - log
+        - work_dir : ./trained_models/GPT2_M/e2e - 2025-05-29 07:31:41,701 - log
+        - beam : 10 - 2025-05-29 07:31:41,701 - log
+        - length_penalty : 0.8 - 2025-05-29 07:31:41,701 - log
+        - no_repeat_ngram_size : 4 - 2025-05-29 07:31:41,701 - log
+        - repetition_penalty : 1.0 - 2025-05-29 07:31:41,701 - log
+        - eos_token_id : [50256, 628] - 2025-05-29 07:31:41,701 - log
+        - output_file : predict.26290.b10p08r4.jsonl - 2025-05-29 07:31:41,701 - log
+        - device : cuda - 2025-05-29 07:31:41,701 - log
+==================================================================================================== - 2025-05-29 07:31:41,701 - log
+--------------------------------------------------test-------------------------------------------------- - 2025-05-29 07:31:41,701 - log
+loading model pretrained weight. - 2025-05-29 07:31:41,823 - log
+model sampling ... - 2025-05-29 07:31:43,289 - log
+inference samples: 0 - 2025-05-29 07:31:44,140 - log
+inference samples: 10 - 2025-05-29 07:31:51,103 - log
+inference samples: 20 - 2025-05-29 07:31:57,886 - log
+inference samples: 30 - 2025-05-29 07:32:04,768 - log
+inference samples: 40 - 2025-05-29 07:32:11,616 - log
+inference samples: 50 - 2025-05-29 07:32:18,484 - log
+inference samples: 60 - 2025-05-29 07:32:25,319 - log
+inference samples: 70 - 2025-05-29 07:32:32,125 - log
+inference samples: 80 - 2025-05-29 07:32:39,000 - log
+inference samples: 90 - 2025-05-29 07:32:45,856 - log
+inference samples: 100 - 2025-05-29 07:32:52,657 - log
+inference samples: 110 - 2025-05-29 07:32:59,478 - log
+inference samples: 120 - 2025-05-29 07:33:06,412 - log
+inference samples: 130 - 2025-05-29 07:33:13,298 - log
+inference samples: 140 - 2025-05-29 07:33:20,236 - log
+inference samples: 150 - 2025-05-29 07:33:27,145 - log
+inference samples: 160 - 2025-05-29 07:33:34,065 - log
+inference samples: 170 - 2025-05-29 07:33:40,908 - log
+inference samples: 180 - 2025-05-29 07:33:47,826 - log
+inference samples: 190 - 2025-05-29 07:33:54,641 - log
+inference samples: 200 - 2025-05-29 07:34:01,543 - log
+inference samples: 210 - 2025-05-29 07:34:08,357 - log
+inference samples: 220 - 2025-05-29 07:34:15,153 - log
+inference samples: 230 - 2025-05-29 07:34:21,961 - log
+inference samples: 240 - 2025-05-29 07:34:28,784 - log
+inference samples: 250 - 2025-05-29 07:34:35,597 - log
+inference samples: 260 - 2025-05-29 07:34:42,438 - log
+inference samples: 270 - 2025-05-29 07:34:49,294 - log
+inference samples: 280 - 2025-05-29 07:34:56,189 - log
+inference samples: 290 - 2025-05-29 07:35:03,036 - log
+inference samples: 300 - 2025-05-29 07:35:09,945 - log
+inference samples: 310 - 2025-05-29 07:35:16,806 - log
+inference samples: 320 - 2025-05-29 07:35:23,646 - log
+inference samples: 330 - 2025-05-29 07:35:30,537 - log
+inference samples: 340 - 2025-05-29 07:35:37,355 - log
+inference samples: 350 - 2025-05-29 07:35:44,210 - log
+inference samples: 360 - 2025-05-29 07:35:51,067 - log
+inference samples: 370 - 2025-05-29 07:35:57,964 - log
+inference samples: 380 - 2025-05-29 07:36:04,779 - log
+inference samples: 390 - 2025-05-29 07:36:11,659 - log
+inference samples: 400 - 2025-05-29 07:36:18,515 - log
+inference samples: 410 - 2025-05-29 07:36:25,345 - log
+inference samples: 420 - 2025-05-29 07:36:32,151 - log
+inference samples: 430 - 2025-05-29 07:36:38,999 - log
+inference samples: 440 - 2025-05-29 07:36:45,836 - log
+inference samples: 450 - 2025-05-29 07:36:52,720 - log
+inference samples: 460 - 2025-05-29 07:36:59,567 - log
+inference samples: 470 - 2025-05-29 07:37:06,362 - log
+inference samples: 480 - 2025-05-29 07:37:13,161 - log
+inference samples: 490 - 2025-05-29 07:37:20,041 - log
+inference samples: 500 - 2025-05-29 07:37:26,881 - log
+inference samples: 510 - 2025-05-29 07:37:33,756 - log
+inference samples: 520 - 2025-05-29 07:37:40,636 - log
+inference samples: 530 - 2025-05-29 07:37:47,503 - log
+inference samples: 540 - 2025-05-29 07:37:54,353 - log
+inference samples: 550 - 2025-05-29 07:38:01,273 - log
+inference samples: 560 - 2025-05-29 07:38:08,132 - log
+inference samples: 570 - 2025-05-29 07:38:14,998 - log
+inference samples: 580 - 2025-05-29 07:38:21,876 - log
+inference samples: 590 - 2025-05-29 07:38:28,723 - log
+inference samples: 600 - 2025-05-29 07:38:35,601 - log
+inference samples: 610 - 2025-05-29 07:38:42,565 - log
+inference samples: 620 - 2025-05-29 07:38:49,506 - log
+inference samples: 630 - 2025-05-29 07:38:56,432 - log
+inference samples: 640 - 2025-05-29 07:39:03,326 - log
+inference samples: 650 - 2025-05-29 07:39:10,168 - log
+inference samples: 660 - 2025-05-29 07:39:16,951 - log
+inference samples: 670 - 2025-05-29 07:39:23,761 - log
+inference samples: 680 - 2025-05-29 07:39:30,675 - log
+inference samples: 690 - 2025-05-29 07:39:37,529 - log
+inference samples: 700 - 2025-05-29 07:39:44,361 - log
+inference samples: 710 - 2025-05-29 07:39:51,224 - log
+inference samples: 720 - 2025-05-29 07:39:58,047 - log
+inference samples: 730 - 2025-05-29 07:40:04,906 - log
+inference samples: 740 - 2025-05-29 07:40:11,781 - log
+inference samples: 750 - 2025-05-29 07:40:18,652 - log
+inference samples: 760 - 2025-05-29 07:40:25,495 - log
+inference samples: 770 - 2025-05-29 07:40:32,403 - log
+inference samples: 780 - 2025-05-29 07:40:39,255 - log
+inference samples: 790 - 2025-05-29 07:40:46,130 - log
+inference samples: 800 - 2025-05-29 07:40:53,011 - log
+inference samples: 810 - 2025-05-29 07:40:59,920 - log
+inference samples: 820 - 2025-05-29 07:41:06,765 - log
+inference samples: 830 - 2025-05-29 07:41:13,576 - log
+inference samples: 840 - 2025-05-29 07:41:20,426 - log
+inference samples: 850 - 2025-05-29 07:41:27,231 - log
+inference samples: 860 - 2025-05-29 07:41:34,140 - log
+inference samples: 870 - 2025-05-29 07:41:41,043 - log
+inference samples: 880 - 2025-05-29 07:41:47,896 - log
+inference samples: 890 - 2025-05-29 07:41:54,772 - log
+inference samples: 900 - 2025-05-29 07:42:01,669 - log
+inference samples: 910 - 2025-05-29 07:42:08,542 - log
+inference samples: 920 - 2025-05-29 07:42:15,394 - log
+inference samples: 930 - 2025-05-29 07:42:22,314 - log
+inference samples: 940 - 2025-05-29 07:42:29,176 - log
+inference samples: 950 - 2025-05-29 07:42:35,944 - log
+inference samples: 960 - 2025-05-29 07:42:42,764 - log
+inference samples: 970 - 2025-05-29 07:42:49,579 - log
+inference samples: 980 - 2025-05-29 07:42:56,363 - log
+inference samples: 990 - 2025-05-29 07:43:03,375 - log
+inference samples: 1000 - 2025-05-29 07:43:10,256 - log
+inference samples: 1010 - 2025-05-29 07:43:17,136 - log
+inference samples: 1020 - 2025-05-29 07:43:24,107 - log
+inference samples: 1030 - 2025-05-29 07:43:30,986 - log
+inference samples: 1040 - 2025-05-29 07:43:37,845 - log
+inference samples: 1050 - 2025-05-29 07:43:44,747 - log
+inference samples: 1060 - 2025-05-29 07:43:51,564 - log
+inference samples: 1070 - 2025-05-29 07:43:58,323 - log
+inference samples: 1080 - 2025-05-29 07:44:05,105 - log
+inference samples: 1090 - 2025-05-29 07:44:11,999 - log
+inference samples: 1100 - 2025-05-29 07:44:18,814 - log
+inference samples: 1110 - 2025-05-29 07:44:25,651 - log
+inference samples: 1120 - 2025-05-29 07:44:32,519 - log
+inference samples: 1130 - 2025-05-29 07:44:39,386 - log
+inference samples: 1140 - 2025-05-29 07:44:46,231 - log
+inference samples: 1150 - 2025-05-29 07:44:53,081 - log
+inference samples: 1160 - 2025-05-29 07:44:59,947 - log
+inference samples: 1170 - 2025-05-29 07:45:06,769 - log
+inference samples: 1180 - 2025-05-29 07:45:13,545 - log
+inference samples: 1190 - 2025-05-29 07:45:20,323 - log
+inference samples: 1200 - 2025-05-29 07:45:27,095 - log
+inference samples: 1210 - 2025-05-29 07:45:33,923 - log
+inference samples: 1220 - 2025-05-29 07:45:40,829 - log
+inference samples: 1230 - 2025-05-29 07:45:47,695 - log
+inference samples: 1240 - 2025-05-29 07:45:54,534 - log
+inference samples: 1250 - 2025-05-29 07:46:01,465 - log
+inference samples: 1260 - 2025-05-29 07:46:08,335 - log
+inference samples: 1270 - 2025-05-29 07:46:15,160 - log
+inference samples: 1280 - 2025-05-29 07:46:22,039 - log
+inference samples: 1290 - 2025-05-29 07:46:28,957 - log
+inference samples: 1300 - 2025-05-29 07:46:35,797 - log
+inference samples: 1310 - 2025-05-29 07:46:42,641 - log
+inference samples: 1320 - 2025-05-29 07:46:49,447 - log
+inference samples: 1330 - 2025-05-29 07:46:56,282 - log
+inference samples: 1340 - 2025-05-29 07:47:03,169 - log
+inference samples: 1350 - 2025-05-29 07:47:10,028 - log
+inference samples: 1360 - 2025-05-29 07:47:16,864 - log
+inference samples: 1370 - 2025-05-29 07:47:23,724 - log
+inference samples: 1380 - 2025-05-29 07:47:30,558 - log
+inference samples: 1390 - 2025-05-29 07:47:37,392 - log
+inference samples: 1400 - 2025-05-29 07:47:44,174 - log
+inference samples: 1410 - 2025-05-29 07:47:51,068 - log
+inference samples: 1420 - 2025-05-29 07:47:57,973 - log
+inference samples: 1430 - 2025-05-29 07:48:04,823 - log
+inference samples: 1440 - 2025-05-29 07:48:11,668 - log
+inference samples: 1450 - 2025-05-29 07:48:18,512 - log
+inference samples: 1460 - 2025-05-29 07:48:25,340 - log
+inference samples: 1470 - 2025-05-29 07:48:32,263 - log
+inference samples: 1480 - 2025-05-29 07:48:39,128 - log
+inference samples: 1490 - 2025-05-29 07:48:45,933 - log
+inference samples: 1500 - 2025-05-29 07:48:52,860 - log
+inference samples: 1510 - 2025-05-29 07:48:59,679 - log
+inference samples: 1520 - 2025-05-29 07:49:06,513 - log
+inference samples: 1530 - 2025-05-29 07:49:13,374 - log
+inference samples: 1540 - 2025-05-29 07:49:20,181 - log
+inference samples: 1550 - 2025-05-29 07:49:26,967 - log
+inference samples: 1560 - 2025-05-29 07:49:33,779 - log
+inference samples: 1570 - 2025-05-29 07:49:40,609 - log
+inference samples: 1580 - 2025-05-29 07:49:47,394 - log
+inference samples: 1590 - 2025-05-29 07:49:54,223 - log
+inference samples: 1600 - 2025-05-29 07:50:01,186 - log
+inference samples: 1610 - 2025-05-29 07:50:08,087 - log
+inference samples: 1620 - 2025-05-29 07:50:14,995 - log
+inference samples: 1630 - 2025-05-29 07:50:21,902 - log
+inference samples: 1640 - 2025-05-29 07:50:28,774 - log
+inference samples: 1650 - 2025-05-29 07:50:35,617 - log
+inference samples: 1660 - 2025-05-29 07:50:42,484 - log
+inference samples: 1670 - 2025-05-29 07:50:49,327 - log
+inference samples: 1680 - 2025-05-29 07:50:56,137 - log
+inference samples: 1690 - 2025-05-29 07:51:03,031 - log
+inference samples: 1700 - 2025-05-29 07:51:09,848 - log
+inference samples: 1710 - 2025-05-29 07:51:16,688 - log
+inference samples: 1720 - 2025-05-29 07:51:23,626 - log
+inference samples: 1730 - 2025-05-29 07:51:30,481 - log
+inference samples: 1740 - 2025-05-29 07:51:37,260 - log
+inference samples: 1750 - 2025-05-29 07:51:44,046 - log
+inference samples: 1760 - 2025-05-29 07:51:50,885 - log
+inference samples: 1770 - 2025-05-29 07:51:57,792 - log
+inference samples: 1780 - 2025-05-29 07:52:04,663 - log
+inference samples: 1790 - 2025-05-29 07:52:11,578 - log
+inference samples: 1800 - 2025-05-29 07:52:18,402 - log
+inference samples: 1810 - 2025-05-29 07:52:25,250 - log
+inference samples: 1820 - 2025-05-29 07:52:32,191 - log
+inference samples: 1830 - 2025-05-29 07:52:39,081 - log
+inference samples: 1840 - 2025-05-29 07:52:45,910 - log
+inference samples: 1850 - 2025-05-29 07:52:52,829 - log
+inference samples: 1860 - 2025-05-29 07:52:59,707 - log
+inference samples: 1870 - 2025-05-29 07:53:06,533 - log
+inference samples: 1880 - 2025-05-29 07:53:13,458 - log
+inference samples: 1890 - 2025-05-29 07:53:20,423 - log
+inference samples: 1900 - 2025-05-29 07:53:27,417 - log
+inference samples: 1910 - 2025-05-29 07:53:34,435 - log
+inference samples: 1920 - 2025-05-29 07:53:41,503 - log
+inference samples: 1930 - 2025-05-29 07:53:48,613 - log
+inference samples: 1940 - 2025-05-29 07:53:55,626 - log
+inference samples: 1950 - 2025-05-29 07:54:02,668 - log
+inference samples: 1960 - 2025-05-29 07:54:09,706 - log
+inference samples: 1970 - 2025-05-29 07:54:16,761 - log
+inference samples: 1980 - 2025-05-29 07:54:23,832 - log
+inference samples: 1990 - 2025-05-29 07:54:30,848 - log
+inference samples: 2000 - 2025-05-29 07:54:37,822 - log
+inference samples: 2010 - 2025-05-29 07:54:44,820 - log
+inference samples: 2020 - 2025-05-29 07:54:51,811 - log
+inference samples: 2030 - 2025-05-29 07:54:58,868 - log
+inference samples: 2040 - 2025-05-29 07:55:05,896 - log
+inference samples: 2050 - 2025-05-29 07:55:12,939 - log
+inference samples: 2060 - 2025-05-29 07:55:19,942 - log
+inference samples: 2070 - 2025-05-29 07:55:26,972 - log
+inference samples: 2080 - 2025-05-29 07:55:34,010 - log
+inference samples: 2090 - 2025-05-29 07:55:41,102 - log
+inference samples: 2100 - 2025-05-29 07:55:48,098 - log
+inference samples: 2110 - 2025-05-29 07:55:55,068 - log
+inference samples: 2120 - 2025-05-29 07:56:02,065 - log
+inference samples: 2130 - 2025-05-29 07:56:09,110 - log
+inference samples: 2140 - 2025-05-29 07:56:16,106 - log
+inference samples: 2150 - 2025-05-29 07:56:23,075 - log
+inference samples: 2160 - 2025-05-29 07:56:30,061 - log
+inference samples: 2170 - 2025-05-29 07:56:37,046 - log
+inference samples: 2180 - 2025-05-29 07:56:44,096 - log
+inference samples: 2190 - 2025-05-29 07:56:51,114 - log
+inference samples: 2200 - 2025-05-29 07:56:58,137 - log
+inference samples: 2210 - 2025-05-29 07:57:05,117 - log
+inference samples: 2220 - 2025-05-29 07:57:12,247 - log
+inference samples: 2230 - 2025-05-29 07:57:19,286 - log
+inference samples: 2240 - 2025-05-29 07:57:26,328 - log
+inference samples: 2250 - 2025-05-29 07:57:33,432 - log
+inference samples: 2260 - 2025-05-29 07:57:40,423 - log
+inference samples: 2270 - 2025-05-29 07:57:47,395 - log
+inference samples: 2280 - 2025-05-29 07:57:54,421 - log
+inference samples: 2290 - 2025-05-29 07:58:01,432 - log
+inference samples: 2300 - 2025-05-29 07:58:08,467 - log
+inference samples: 2310 - 2025-05-29 07:58:15,522 - log
+inference samples: 2320 - 2025-05-29 07:58:22,539 - log
+inference samples: 2330 - 2025-05-29 07:58:29,523 - log
+inference samples: 2340 - 2025-05-29 07:58:36,631 - log
+inference samples: 2350 - 2025-05-29 07:58:43,733 - log
+inference samples: 2360 - 2025-05-29 07:58:50,796 - log
+inference samples: 2370 - 2025-05-29 07:58:57,787 - log
+inference samples: 2380 - 2025-05-29 07:59:04,735 - log
+inference samples: 2390 - 2025-05-29 07:59:11,667 - log
+inference samples: 2400 - 2025-05-29 07:59:18,706 - log
+inference samples: 2410 - 2025-05-29 07:59:25,672 - log
+inference samples: 2420 - 2025-05-29 07:59:32,710 - log
+inference samples: 2430 - 2025-05-29 07:59:39,751 - log
+inference samples: 2440 - 2025-05-29 07:59:46,754 - log
+inference samples: 2450 - 2025-05-29 07:59:53,807 - log
+inference samples: 2460 - 2025-05-29 08:00:00,827 - log
+inference samples: 2470 - 2025-05-29 08:00:07,866 - log
+inference samples: 2480 - 2025-05-29 08:00:14,920 - log
+inference samples: 2490 - 2025-05-29 08:00:21,924 - log
+inference samples: 2500 - 2025-05-29 08:00:28,957 - log
+inference samples: 2510 - 2025-05-29 08:00:36,035 - log
+inference samples: 2520 - 2025-05-29 08:00:43,021 - log
+inference samples: 2530 - 2025-05-29 08:00:49,983 - log
+inference samples: 2540 - 2025-05-29 08:00:56,840 - log
+inference samples: 2550 - 2025-05-29 08:01:03,777 - log
+inference samples: 2560 - 2025-05-29 08:01:10,650 - log
+inference samples: 2570 - 2025-05-29 08:01:17,493 - log
+inference samples: 2580 - 2025-05-29 08:01:24,312 - log
+inference samples: 2590 - 2025-05-29 08:01:31,197 - log
+inference samples: 2600 - 2025-05-29 08:01:38,076 - log
+inference samples: 2610 - 2025-05-29 08:01:44,890 - log
+inference samples: 2620 - 2025-05-29 08:01:51,726 - log
+inference samples: 2630 - 2025-05-29 08:01:58,582 - log
+inference samples: 2640 - 2025-05-29 08:02:05,389 - log
+inference samples: 2650 - 2025-05-29 08:02:12,264 - log
+inference samples: 2660 - 2025-05-29 08:02:19,039 - log
+inference samples: 2670 - 2025-05-29 08:02:25,943 - log
+inference samples: 2680 - 2025-05-29 08:02:32,761 - log
+inference samples: 2690 - 2025-05-29 08:02:39,557 - log
+inference samples: 2700 - 2025-05-29 08:02:46,357 - log
+inference samples: 2710 - 2025-05-29 08:02:53,190 - log
+inference samples: 2720 - 2025-05-29 08:03:00,066 - log
+inference samples: 2730 - 2025-05-29 08:03:06,931 - log
+inference samples: 2740 - 2025-05-29 08:03:13,755 - log
+inference samples: 2750 - 2025-05-29 08:03:20,609 - log
+inference samples: 2760 - 2025-05-29 08:03:27,380 - log
+inference samples: 2770 - 2025-05-29 08:03:34,194 - log
+inference samples: 2780 - 2025-05-29 08:03:41,049 - log
+inference samples: 2790 - 2025-05-29 08:03:47,970 - log
+inference samples: 2800 - 2025-05-29 08:03:54,789 - log
+inference samples: 2810 - 2025-05-29 08:04:01,797 - log
+inference samples: 2820 - 2025-05-29 08:04:08,696 - log
+inference samples: 2830 - 2025-05-29 08:04:15,659 - log
+inference samples: 2840 - 2025-05-29 08:04:22,832 - log
+inference samples: 2850 - 2025-05-29 08:04:29,801 - log
+inference samples: 2860 - 2025-05-29 08:04:36,802 - log
+inference samples: 2870 - 2025-05-29 08:04:43,790 - log
+inference samples: 2880 - 2025-05-29 08:04:50,843 - log
+inference samples: 2890 - 2025-05-29 08:04:57,951 - log
+inference samples: 2900 - 2025-05-29 08:05:04,978 - log
+inference samples: 2910 - 2025-05-29 08:05:12,023 - log
+inference samples: 2920 - 2025-05-29 08:05:18,848 - log
+inference samples: 2930 - 2025-05-29 08:05:25,780 - log
+inference samples: 2940 - 2025-05-29 08:05:32,610 - log
+inference samples: 2950 - 2025-05-29 08:05:39,450 - log
+inference samples: 2960 - 2025-05-29 08:05:46,377 - log
+inference samples: 2970 - 2025-05-29 08:05:53,158 - log
+inference samples: 2980 - 2025-05-29 08:05:59,937 - log
+inference samples: 2990 - 2025-05-29 08:06:06,766 - log
+inference samples: 3000 - 2025-05-29 08:06:13,654 - log
+inference samples: 3010 - 2025-05-29 08:06:20,544 - log
+inference samples: 3020 - 2025-05-29 08:06:27,414 - log
+inference samples: 3030 - 2025-05-29 08:06:34,257 - log
+inference samples: 3040 - 2025-05-29 08:06:41,092 - log
+inference samples: 3050 - 2025-05-29 08:06:47,901 - log
+inference samples: 3060 - 2025-05-29 08:06:54,771 - log
+inference samples: 3070 - 2025-05-29 08:07:01,631 - log
+inference samples: 3080 - 2025-05-29 08:07:08,543 - log
+inference samples: 3090 - 2025-05-29 08:07:15,415 - log
+inference samples: 3100 - 2025-05-29 08:07:22,204 - log
+inference samples: 3110 - 2025-05-29 08:07:29,057 - log
+inference samples: 3120 - 2025-05-29 08:07:35,907 - log
+inference samples: 3130 - 2025-05-29 08:07:42,852 - log
+inference samples: 3140 - 2025-05-29 08:07:49,718 - log
+inference samples: 3150 - 2025-05-29 08:07:56,591 - log
+inference samples: 3160 - 2025-05-29 08:08:03,454 - log
+inference samples: 3170 - 2025-05-29 08:08:10,292 - log
+inference samples: 3180 - 2025-05-29 08:08:17,146 - log
+inference samples: 3190 - 2025-05-29 08:08:24,059 - log
+inference samples: 3200 - 2025-05-29 08:08:30,926 - log
+inference samples: 3210 - 2025-05-29 08:08:37,747 - log
+inference samples: 3220 - 2025-05-29 08:08:44,576 - log
+inference samples: 3230 - 2025-05-29 08:08:51,369 - log
+inference samples: 3240 - 2025-05-29 08:08:58,228 - log
+inference samples: 3250 - 2025-05-29 08:09:05,057 - log
+inference samples: 3260 - 2025-05-29 08:09:11,868 - log
+inference samples: 3270 - 2025-05-29 08:09:18,672 - log
+inference samples: 3280 - 2025-05-29 08:09:25,655 - log
+inference samples: 3290 - 2025-05-29 08:09:32,569 - log
+inference samples: 3300 - 2025-05-29 08:09:39,470 - log
+inference samples: 3310 - 2025-05-29 08:09:46,400 - log
+inference samples: 3320 - 2025-05-29 08:09:53,274 - log
+inference samples: 3330 - 2025-05-29 08:10:00,141 - log
+inference samples: 3340 - 2025-05-29 08:10:06,990 - log
+inference samples: 3350 - 2025-05-29 08:10:13,855 - log
+inference samples: 3360 - 2025-05-29 08:10:20,763 - log
+inference samples: 3370 - 2025-05-29 08:10:27,649 - log
+inference samples: 3380 - 2025-05-29 08:10:34,590 - log
+inference samples: 3390 - 2025-05-29 08:10:41,484 - log
+inference samples: 3400 - 2025-05-29 08:10:48,368 - log
+inference samples: 3410 - 2025-05-29 08:10:55,259 - log
+inference samples: 3420 - 2025-05-29 08:11:02,166 - log
+inference samples: 3430 - 2025-05-29 08:11:08,982 - log
+inference samples: 3440 - 2025-05-29 08:11:15,827 - log
+inference samples: 3450 - 2025-05-29 08:11:22,606 - log
+inference samples: 3460 - 2025-05-29 08:11:29,432 - log
+inference samples: 3470 - 2025-05-29 08:11:36,335 - log
+inference samples: 3480 - 2025-05-29 08:11:43,211 - log
+inference samples: 3490 - 2025-05-29 08:11:50,104 - log
+inference samples: 3500 - 2025-05-29 08:11:56,925 - log
+inference samples: 3510 - 2025-05-29 08:12:03,720 - log
+inference samples: 3520 - 2025-05-29 08:12:10,560 - log
+inference samples: 3530 - 2025-05-29 08:12:17,434 - log
+inference samples: 3540 - 2025-05-29 08:12:24,252 - log
+inference samples: 3550 - 2025-05-29 08:12:31,066 - log
+inference samples: 3560 - 2025-05-29 08:12:37,902 - log
+inference samples: 3570 - 2025-05-29 08:12:44,704 - log
+inference samples: 3580 - 2025-05-29 08:12:51,479 - log
+inference samples: 3590 - 2025-05-29 08:12:58,273 - log
+inference samples: 3600 - 2025-05-29 08:13:05,085 - log
+inference samples: 3610 - 2025-05-29 08:13:11,906 - log
+inference samples: 3620 - 2025-05-29 08:13:18,760 - log
+inference samples: 3630 - 2025-05-29 08:13:25,629 - log
+inference samples: 3640 - 2025-05-29 08:13:32,432 - log
+inference samples: 3650 - 2025-05-29 08:13:39,249 - log
+inference samples: 3660 - 2025-05-29 08:13:46,123 - log
+inference samples: 3670 - 2025-05-29 08:13:52,961 - log
+inference samples: 3680 - 2025-05-29 08:13:59,774 - log
+inference samples: 3690 - 2025-05-29 08:14:06,627 - log
+inference samples: 3700 - 2025-05-29 08:14:13,408 - log
+inference samples: 3710 - 2025-05-29 08:14:20,185 - log
+inference samples: 3720 - 2025-05-29 08:14:27,046 - log
+inference samples: 3730 - 2025-05-29 08:14:33,902 - log
+inference samples: 3740 - 2025-05-29 08:14:40,717 - log
+inference samples: 3750 - 2025-05-29 08:14:47,579 - log
+inference samples: 3760 - 2025-05-29 08:14:54,416 - log
+inference samples: 3770 - 2025-05-29 08:15:01,229 - log
+inference samples: 3780 - 2025-05-29 08:15:08,108 - log
+inference samples: 3790 - 2025-05-29 08:15:14,981 - log
+inference samples: 3800 - 2025-05-29 08:15:21,854 - log
+inference samples: 3810 - 2025-05-29 08:15:28,665 - log
+inference samples: 3820 - 2025-05-29 08:15:35,514 - log
+inference samples: 3830 - 2025-05-29 08:15:42,363 - log
+inference samples: 3840 - 2025-05-29 08:15:49,158 - log
+inference samples: 3850 - 2025-05-29 08:15:56,042 - log
+inference samples: 3860 - 2025-05-29 08:16:02,918 - log
+inference samples: 3870 - 2025-05-29 08:16:09,792 - log
+inference samples: 3880 - 2025-05-29 08:16:16,639 - log
+inference samples: 3890 - 2025-05-29 08:16:23,533 - log
+inference samples: 3900 - 2025-05-29 08:16:30,312 - log
+inference samples: 3910 - 2025-05-29 08:16:37,123 - log
+inference samples: 3920 - 2025-05-29 08:16:43,917 - log
+inference samples: 3930 - 2025-05-29 08:16:50,753 - log
+inference samples: 3940 - 2025-05-29 08:16:57,589 - log
+inference samples: 3950 - 2025-05-29 08:17:04,437 - log
+inference samples: 3960 - 2025-05-29 08:17:11,319 - log
+inference samples: 3970 - 2025-05-29 08:17:18,184 - log
+inference samples: 3980 - 2025-05-29 08:17:25,035 - log
+inference samples: 3990 - 2025-05-29 08:17:31,889 - log
+inference samples: 4000 - 2025-05-29 08:17:38,812 - log
+inference samples: 4010 - 2025-05-29 08:17:45,767 - log
+inference samples: 4020 - 2025-05-29 08:17:52,614 - log
+inference samples: 4030 - 2025-05-29 08:17:59,557 - log
+inference samples: 4040 - 2025-05-29 08:18:06,467 - log
+inference samples: 4050 - 2025-05-29 08:18:13,343 - log
+inference samples: 4060 - 2025-05-29 08:18:20,179 - log
+inference samples: 4070 - 2025-05-29 08:18:27,049 - log
+inference samples: 4080 - 2025-05-29 08:18:33,928 - log
+inference samples: 4090 - 2025-05-29 08:18:40,837 - log
+inference samples: 4100 - 2025-05-29 08:18:47,764 - log
+inference samples: 4110 - 2025-05-29 08:18:54,685 - log
+inference samples: 4120 - 2025-05-29 08:19:01,670 - log
+inference samples: 4130 - 2025-05-29 08:19:08,564 - log
+inference samples: 4140 - 2025-05-29 08:19:15,425 - log
+inference samples: 4150 - 2025-05-29 08:19:22,261 - log
+inference samples: 4160 - 2025-05-29 08:19:29,112 - log
+inference samples: 4170 - 2025-05-29 08:19:35,998 - log
+inference samples: 4180 - 2025-05-29 08:19:42,810 - log
+inference samples: 4190 - 2025-05-29 08:19:49,644 - log
+inference samples: 4200 - 2025-05-29 08:19:56,516 - log
+inference samples: 4210 - 2025-05-29 08:20:03,323 - log
+inference samples: 4220 - 2025-05-29 08:20:10,151 - log
+inference samples: 4230 - 2025-05-29 08:20:16,980 - log
+inference samples: 4240 - 2025-05-29 08:20:23,792 - log
+inference samples: 4250 - 2025-05-29 08:20:30,635 - log
+inference samples: 4260 - 2025-05-29 08:20:37,541 - log
+inference samples: 4270 - 2025-05-29 08:20:44,391 - log
+inference samples: 4280 - 2025-05-29 08:20:51,288 - log
+inference samples: 4290 - 2025-05-29 08:20:58,205 - log
+inference samples: 4300 - 2025-05-29 08:21:04,980 - log
+inference samples: 4310 - 2025-05-29 08:21:11,758 - log
+inference samples: 4320 - 2025-05-29 08:21:18,661 - log
+inference samples: 4330 - 2025-05-29 08:21:25,466 - log
+inference samples: 4340 - 2025-05-29 08:21:32,299 - log
+inference samples: 4350 - 2025-05-29 08:21:39,104 - log
+inference samples: 4360 - 2025-05-29 08:21:45,980 - log
+inference samples: 4370 - 2025-05-29 08:21:52,825 - log
+inference samples: 4380 - 2025-05-29 08:21:59,638 - log
+inference samples: 4390 - 2025-05-29 08:22:06,487 - log
+inference samples: 4400 - 2025-05-29 08:22:13,317 - log
+inference samples: 4410 - 2025-05-29 08:22:20,120 - log
+inference samples: 4420 - 2025-05-29 08:22:26,983 - log
+inference samples: 4430 - 2025-05-29 08:22:33,756 - log
+inference samples: 4440 - 2025-05-29 08:22:40,539 - log
+inference samples: 4450 - 2025-05-29 08:22:47,419 - log
+inference samples: 4460 - 2025-05-29 08:22:54,300 - log
+inference samples: 4470 - 2025-05-29 08:23:01,130 - log
+inference samples: 4480 - 2025-05-29 08:23:08,002 - log
+inference samples: 4490 - 2025-05-29 08:23:14,882 - log
+inference samples: 4500 - 2025-05-29 08:23:21,705 - log
+inference samples: 4510 - 2025-05-29 08:23:28,570 - log
+inference samples: 4520 - 2025-05-29 08:23:35,484 - log
+inference samples: 4530 - 2025-05-29 08:23:42,338 - log
+inference samples: 4540 - 2025-05-29 08:23:49,206 - log
+inference samples: 4550 - 2025-05-29 08:23:56,028 - log
+inference samples: 4560 - 2025-05-29 08:24:02,782 - log
+inference samples: 4570 - 2025-05-29 08:24:09,592 - log
+inference samples: 4580 - 2025-05-29 08:24:16,528 - log
+inference samples: 4590 - 2025-05-29 08:24:23,402 - log
+inference samples: 4600 - 2025-05-29 08:24:30,308 - log
+inference samples: 4610 - 2025-05-29 08:24:37,275 - log
+inference samples: 4620 - 2025-05-29 08:24:44,152 - log
+inference samples: 4630 - 2025-05-29 08:24:50,967 - log
+inference samples: 4640 - 2025-05-29 08:24:57,794 - log
+inference samples: 4650 - 2025-05-29 08:25:04,598 - log
+inference samples: 4660 - 2025-05-29 08:25:11,379 - log
+inference samples: 4670 - 2025-05-29 08:25:18,171 - log
+inference samples: 4680 - 2025-05-29 08:25:24,964 - log
+inference samples: 4690 - 2025-05-29 08:25:31,859 - log
+Jittor FPS: 1.4530868775095813 - 2025-05-29 08:25:33,213 - log
+saving prediction file: ./trained_models/GPT2_M/e2e/predict.26290.b10p08r4.jsonl - 2025-05-29 08:25:33,213 - log
+finish inference - 2025-05-29 08:25:33,245 - log
