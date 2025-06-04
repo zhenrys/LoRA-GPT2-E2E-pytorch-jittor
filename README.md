@@ -3,6 +3,8 @@
 
 ![lora论文中的实验](paper.png)
 
+注：关于小数据集，小模型快速验证详见仓库：https://github.com/zhenrys/LoRA-GPT2-E2E-pytorch-jittor-demo
+
 注：将环境配置、数据准备脚本、训练脚本、测试脚本、与pytorch实现对齐的实验log，性能log都放在README中。
 
 注：这是作者初次复现大模型代码，参考了许多相关资料，详见主要参考部分。
